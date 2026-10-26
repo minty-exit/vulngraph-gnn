@@ -1,0 +1,560 @@
+capec_id,name,severity,likelihood,abstraction
+519,Documentation Alteration to Cause Errors in System Design,High,Low,Detailed
+666,BlueSmacking,Medium,Medium,Standard
+198,XSS Targeting Error Pages,Medium,,Detailed
+649,Adding a Space to a File Extension,Medium,Low,Detailed
+384,Application API Message Manipulation via Man-in-the-Middle,Low,,Standard
+204,Lifting Sensitive Data Embedded in Cache,Medium,,Detailed
+520,Counterfeit Hardware Component Inserted During Product Assembly,High,Low,Detailed
+107,Cross Site Tracing,Very High,Medium,Detailed
+271,Schema Poisoning,High,Low,Standard
+148,Content Spoofing,Medium,Medium,Meta
+310,Scanning for Vulnerable Software,Low,,Detailed
+406,Dumpster Diving,Low,,Detailed
+633,Token Impersonation,Medium,,Detailed
+447,Design Alteration,High,Medium,Standard
+616,Establish Rogue Location,Medium,Medium,Standard
+50,Password Recovery Exploitation,High,Medium,Standard
+569,Collect Data as Provided by Users,,,Standard
+16,Dictionary-based Password Attack,High,Medium,Detailed
+295,Timestamp Request,Low,,Detailed
+481,Contradictory Destinations in Traffic Routing Schemes,High,Medium,Standard
+301,TCP Connect Scan,Low,,Detailed
+699,Eavesdropping on a Monitor,High,Medium,Meta
+157,Sniffing Attacks,Medium,,Standard
+57,Utilizing REST's Trust in the System Resource to Obtain Sensitive Data,Very High,Medium,Detailed
+503,WebView Exposure,,,Standard
+440,Hardware Integrity Attack,High,Low,Meta
+642,Replace Binaries,High,,Detailed
+182,Flash Injection,Medium,High,Standard
+245,XSS Using Doubled Characters,Medium,,Detailed
+456,Infected Memory,High,Medium,Standard
+66,SQL Injection,High,High,Standard
+497,File Discovery,Very Low,High,Standard
+317,IP ID Sequencing Probe,Low,Medium,Detailed
+141,Cache Poisoning,High,High,Standard
+41,Using Meta-characters in E-mail Headers to Inject Malicious Payloads,High,High,Detailed
+489,SSL Flood,,,Standard
+544,Counterfeit Organizations,High,,Detailed
+100,Overflow Buffers,Very High,High,Standard
+6,Argument Injection,High,High,Standard
+674,Design for FPGA Maliciously Altered,High,Low,Detailed
+561,Windows Admin Shares with Stolen Credentials,,,Detailed
+488,HTTP Flood,,,Standard
+657,Malicious Automated Software Update via Spoofing,High,High,Detailed
+562,Modify Shared File,,,Detailed
+263,Force Use of Corrupted Files,Medium,,Detailed
+189,Black Box Reverse Engineering,Low,,Standard
+641,DLL Side-Loading,High,Low,Detailed
+586,Object Injection,High,Medium,Meta
+464,Evercookie,Medium,,Standard
+608,Cryptanalysis of Cellular Encryption,High,,Detailed
+577,Owner Footprinting,Low,Low,Standard
+287,TCP SYN Scan,Low,,Detailed
+650,Upload a Web Shell to a Web Server,High,,Detailed
+165,File Manipulation,Medium,,Meta
+473,Signature Spoof,,,Standard
+65,Sniff Application Code,High,Low,Detailed
+568,Capture Credentials via Keylogger,High,,Detailed
+174,Flash Parameter Injection,Medium,High,Detailed
+74,Manipulating State,High,Medium,Meta
+675,Retrieve Data from Decommissioned Devices,Medium,Medium,Standard
+309,Network Topology Mapping,Low,,Standard
+278,Web Services Protocol Manipulation,,,Standard
+222,iFrame Overlay,High,Medium,Detailed
+383,Harvesting Information via API Event Monitoring,Low,,Detailed
+219,XML Routing Detour Attacks,Medium,High,Standard
+58,Restful Privilege Elevation,High,High,Detailed
+521,Hardware Design Specifications Are Altered,High,Low,Detailed
+253,Remote Code Inclusion,,,Standard
+149,Explore for Predictable Temporary File Names,Medium,,Detailed
+270,Modification of Registry Run Keys,Medium,Medium,Detailed
+15,Command Delimiters,High,High,Standard
+140,Bypassing of Intermediate Forms in Multiple-Form Sets,Medium,,Standard
+496,ICMP Fragmentation,,,Standard
+518,Documentation Alteration to Produce Under-performing Systems,High,Low,Detailed
+682,Exploitation of Firmware or ROM Code with Unpatchable Vulnerabilities,High,Medium,Standard
+498,Probe iOS Screenshots,,,Detailed
+197,Exponential Data Expansion,Medium,High,Detailed
+441,Malicious Logic Insertion,High,Medium,Meta
+302,TCP FIN Scan,Low,,Detailed
+147,XML Ping of the Death,Medium,Low,Detailed
+150,Collect Data from Common Resource Locations,Medium,,Standard
+116,Excavation,Medium,High,Meta
+632,Homograph Attack via Homoglyphs,Medium,Low,Detailed
+601,Jamming,High,Medium,Standard
+220,Client-Server Protocol Manipulation,Medium,,Standard
+446,Malicious Logic Insertion into Product via Inclusion of Third-Party Component,High,Medium,Detailed
+554,Functionality Bypass,High,Medium,Meta
+73,User-Controlled Filename,High,High,Standard
+393,Lock Picking,,,Detailed
+576,Group Permission Footprinting,Low,Low,Standard
+626,Smudge Attack,,,Detailed
+415,Pretexting via Phone,Low,,Detailed
+229,Serialized Data Parameter Blowup,High,High,Detailed
+667,Bluetooth Impersonation AttackS (BIAS),High,Medium,Detailed
+528,XML Flood,Medium,Low,Standard
+491,Quadratic Data Expansion,,,Detailed
+25,Forced Deadlock,High,Low,Meta
+230,Serialized Data with Nested Payloads,High,Medium,Standard
+413,Pretexting via Tech Support,Low,,Detailed
+692,Spoof Version Control System Commit Metadata,High,Medium,Detailed
+227,Sustained Client Engagement,,,Meta
+23,File Content Injection,Very High,High,Standard
+51,Poison Web Service Registry,Very High,High,Detailed
+132,Symlink Attack,High,Low,Detailed
+690,Metadata Spoofing,High,Medium,Meta
+48,Passing Local Filenames to Functions That Expect a URL,High,High,Standard
+639,Probe System Files,Medium,,Detailed
+391,Bypassing Physical Locks,,,Standard
+594,Traffic Injection,,,Meta
+139,Relative Path Traversal,High,High,Detailed
+247,XSS Using Invalid Characters,Medium,,Detailed
+624,Hardware Fault Injection,High,Low,Meta
+142,DNS Cache Poisoning,High,High,Detailed
+124,Shared Resource Manipulation,Medium,,Meta
+438,Modification During Manufacture,,,Meta
+546,Incomplete Data Deletion in a Multi-Tenant Environment,Medium,Low,Detailed
+212,Functionality Misuse,Medium,Medium,Meta
+634,Probe Audio and Video Peripherals,High,Low,Detailed
+423,Influence Perception of Liking,Low,Medium,Detailed
+448,Embed Virus into DLL,High,Medium,Detailed
+190,Reverse Engineer an Executable to Expose Assumed Hidden Functionality,Low,,Detailed
+237,Escaping a Sandbox by Calling Code in Another Language,Very High,Low,Detailed
+300,Port Scanning,Low,,Standard
+511,Infiltration of Software Development Environment,High,Low,Detailed
+114,Authentication Abuse,Medium,,Meta
+325,TCP Congestion Control Flag (ECN) Probe,Low,Medium,Detailed
+4,Using Alternative IP Address Encodings,High,Medium,Detailed
+536,Data Injected During Configuration,High,Low,Standard
+33,HTTP Request Smuggling,High,Medium,Detailed
+505,Scheme Squatting,,,Detailed
+697,DHCP Spoofing,High,Low,Standard
+167,White Box Reverse Engineering,Medium,,Standard
+319,IP (DF) 'Don't Fragment Bit' Echoing Probe,Low,Medium,Detailed
+421,Influence Perception of Authority,Low,High,Detailed
+398,Magnetic Strip Card Brute Force Attacks,,,Detailed
+584,BGP Route Disabling,,,Detailed
+76,Manipulating Web Input to File System Calls,Very High,High,Detailed
+268,Audit Log Manipulation,,,Standard
+606,Weakening of Cellular Encryption,High,,Detailed
+551,Modify Existing Service,,,Detailed
+26,Leveraging Race Conditions,High,High,Meta
+110,SQL Injection through SOAP Parameter Tampering,Very High,High,Detailed
+59,Session Credential Falsification through Prediction,High,High,Detailed
+433,Target Influence via The Human Buffer Overflow,Low,,Detailed
+386,Application API Navigation Remapping,Medium,,Standard
+572,Artificially Inflate File Sizes,Medium,High,Standard
+72,URL Encoding,High,High,Detailed
+538,Open-Source Library Manipulation,High,Low,Detailed
+673,Developer Signing Maliciously Altered Software,High,Medium,Detailed
+579,Replace Winlogon Helper DLL,,,Detailed
+623,Compromising Emanations Attack,Low,,Detailed
+179,Calling Micro-Services Directly,Medium,,Standard
+160,Exploit Script-Based APIs,Medium,,Standard
+163,Spear Phishing,High,High,Detailed
+522,Malicious Hardware Component Replacement,High,Low,Standard
+509,Kerberoasting,High,,Detailed
+130,Excessive Allocation,Medium,Medium,Meta
+627,Counterfeit GPS Signals,High,Low,Standard
+192,Protocol Analysis,Low,Low,Meta
+261,Fuzzing for garnering other adjacent user/sensitive data,Medium,,Detailed
+558,Replace Trusted Executable,High,Low,Detailed
+35,Leverage Executable Code in Non-Executable Files,Very High,High,Detailed
+588,DOM-Based XSS,Very High,High,Detailed
+312,Active OS Fingerprinting,Low,Medium,Standard
+676,NoSQL Injection,High,High,Standard
+126,Path Traversal,Very High,High,Standard
+542,Targeted Malware,,,Standard
+693,StarJacking,High,Medium,Detailed
+277,Data Interchange Protocol Manipulation,,,Standard
+332,ICMP IP 'ID' Field Error Message Probe,Low,Medium,Detailed
+529,Malware-Directed Internal Reconnaissance,Medium,Medium,Standard
+400,RFID Chip Deactivation or Destruction,,,Detailed
+474,Signature Spoofing by Key Theft,High,Medium,Detailed
+290,Enumerate Mail Exchange (MX) Records,Low,,Detailed
+463,Padding Oracle Crypto Attack,High,,Detailed
+559,Orbital Jamming,High,Low,Detailed
+244,XSS Targeting URI Placeholders,High,High,Detailed
+660,Root/Jailbreak Detection Evasion via Hooking,Very High,Medium,Detailed
+647,Collect Data from Registries,Medium,Medium,Detailed
+395,Bypassing Electronic Locks and Access Controls,,,Standard
+407,Pretexting,Low,Medium,Standard
+401,Physically Hacking Hardware,High,Low,Standard
+46,Overflow Variables and Tags,High,High,Detailed
+146,XML Schema Poisoning,High,Low,Detailed
+581,Security Software Footprinting,,,Detailed
+199,XSS Using Alternate Syntax,High,High,Detailed
+215,Fuzzing for application mapping,Low,High,Detailed
+193,PHP Remote File Inclusion,High,High,Detailed
+385,Transaction or Event Tampering via Application API Manipulation,Medium,,Detailed
+640,Inclusion of Code in Existing Process,High,Low,Detailed
+571,Block Logging to Central Repository,Low,,Standard
+303,TCP Xmas Scan,Low,,Detailed
+656,Voice Phishing,High,High,Detailed
+55,Rainbow Table Password Cracking,Medium,Medium,Detailed
+297,TCP ACK Ping,Low,,Detailed
+552,Install Rootkit ,High,Medium,Detailed
+117,Interception,Medium,Low,Meta
+7,Blind SQL Injection,High,High,Detailed
+75,Manipulating Writeable Configuration Files,Very High,High,Standard
+535,Malicious Gray Market Hardware,High,Low,Detailed
+696,Load Value Injection,Very High,Low,Detailed
+123,Buffer Manipulation,Very High,High,Meta
+470,Expanding Control over the Operating System from the Database,Very High,,Detailed
+603,Blockage,High,Medium,Standard
+32,XSS Through HTTP Query Strings,High,High,Detailed
+29,Leveraging Time-of-Check and Time-of-Use (TOCTOU) Race Conditions,High,High,Standard
+417,Influence Perception,Low,High,Standard
+578,Disable Security Software,Medium,Medium,Standard
+183,IMAP/SMTP Command Injection,Medium,,Standard
+617,Cellular Rogue Base Station,Low,,Detailed
+610,Cellular Data Injection,High,,Standard
+424,Influence Perception of Consensus or Social Proof,Low,Low,Detailed
+3,Using Leading 'Ghost' Character Sequences to Bypass Input Filters,Medium,Medium,Detailed
+607,Obstruction,,,Meta
+173,Action Spoofing,Very High,High,Meta
+595,Connection Reset,,,Standard
+201,Serialized Data External Linking,High,High,Detailed
+399,Cloning RFID Cards or Chips,,,Detailed
+620,Drop Encryption Level,High,,Standard
+251,Local Code Inclusion,Medium,,Standard
+434,Target Influence via Interview and Interrogation,Low,,Detailed
+585,DNS Domain Seizure,,,Detailed
+166,Force the System to Reset Values,Medium,,Standard
+248,Command Injection,High,Medium,Meta
+389,Content Spoofing Via Application API Manipulation,Low,,Detailed
+22,Exploiting Trust in Client,High,High,Meta
+19,Embedding Scripts within Scripts,High,High,Standard
+113,Interface Manipulation,Medium,Medium,Meta
+176,Configuration/Environment Manipulation,Medium,,Meta
+231,Oversized Serialized Data Payloads,High,Medium,Standard
+392,Lock Bumping,,,Detailed
+643,Identify Shared Files/Directories on System,Medium,Medium,Detailed
+49,Password Brute Forcing,High,Medium,Standard
+457,USB Memory Attacks,High,Low,Detailed
+326,TCP Initial Window Size Probe,Low,Medium,Detailed
+143,Detect Unpublicized Web Pages,Low,,Detailed
+487,ICMP Flood,,,Standard
+274,HTTP Verb Tampering,Medium,,Detailed
+490,Amplification,,,Standard
+545,Pull Data from System Resources,,,Standard
+600,Credential Stuffing,High,High,Standard
+414,Pretexting via Delivery Person,Low,,Detailed
+460,HTTP Parameter Pollution (HPP),Medium,,Detailed
+575,Account Footprinting,Low,Low,Standard
+228,DTD Injection,Medium,,Detailed
+502,Intent Spoof,,,Standard
+480,Escaping Virtualization,Very High,Low,Standard
+555,Remote Services with Stolen Credentials,Very High,,Standard
+39,Manipulating Opaque Client-based Data Tokens,Medium,High,Standard
+663,Exploitation of Transient Instruction Execution,Very High,Low,Standard
+208,Removing/short-circuiting 'Purse' logic: removing/mutating 'cash' decrements,Medium,,Detailed
+477,Signature Spoofing by Mixing Signed and Unsigned Content,High,Low,Detailed
+42,MIME Conversion,High,High,Detailed
+565,Password Spraying,High,High,Detailed
+218,Spoofing of UDDI/ebXML Messages,Medium,,Detailed
+196,Session Credential Falsification through Forging,Medium,Medium,Standard
+221,Data Serialization External Entities Blowup,,,Detailed
+653,Use of Known Operating System Credentials,High,High,Standard
+52,Embedding NULL Bytes,High,High,Detailed
+306,TCP Window Scan,Low,,Detailed
+467,Cross Site Identification,Low,,Detailed
+133,Try All Common Switches,Medium,,Standard
+294,ICMP Address Mask Request,Low,,Detailed
+136,LDAP Injection,High,High,Standard
+153,Input Data Manipulation,Medium,,Meta
+621,Analysis of Packet Timing and Sizes,Low,,Detailed
+305,TCP ACK Scan,Low,,Detailed
+170,Web Application Fingerprinting,Low,High,Detailed
+435,Target Influence via Instant Rapport,Low,,Detailed
+62,Cross Site Request Forgery,Very High,High,Standard
+2,Inducing Account Lockout,Medium,High,Standard
+604,Wi-Fi Jamming,High,Medium,Detailed
+12,Choosing Message Identifier,High,High,Standard
+468,Generic Cross-Browser Cross-Domain Theft,Medium,,Standard
+299,TCP SYN Ping,Low,,Detailed
+548,Contaminate Resource,High,Low,Meta
+485,Signature Spoofing by Key Recreation,High,Low,Detailed
+45,Buffer Overflow via Symbolic Links,High,High,Detailed
+671,Requirements for ASIC Functionality Maliciously Altered,High,Low,Detailed
+452,Infected Hardware,High,Medium,Standard
+186,Malicious Software Update,High,,Standard
+402,Bypassing ATA Password Security,,,Detailed
+216,Communication Channel Manipulation,,,Meta
+169,Footprinting,Very Low,High,Meta
+532,Altered Installed BIOS,High,Low,Detailed
+69,Target Programs with Elevated Privileges,Very High,High,Standard
+242,Code Injection,High,High,Meta
+695,Repo Jacking,High,Medium,Detailed
+701,Browser in the Middle (BiTM),High,Medium,Standard
+654,Credential Prompt Impersonation,High,Medium,Detailed
+112,Brute Force,High,,Meta
+418,Influence Perception of Reciprocation,Medium,Medium,Detailed
+582,Route Disabling,High,Low,Standard
+598,DNS Spoofing,,,Detailed
+645,Use of Captured Tickets (Pass The Ticket),High,Low,Detailed
+459,Creating a Rogue Certification Authority Certificate,Very High,Medium,Detailed
+103,Clickjacking,High,Medium,Standard
+28,Fuzzing,Medium,High,Meta
+541,Application Fingerprinting,Low,,Standard
+330,ICMP Error Message Echoing Integrity Probe,Low,Medium,Detailed
+613,WiFi SSID Tracking,Low,,Detailed
+36,Using Unpublished Interfaces or Functionality,High,Medium,Standard
+444,Development Alteration,High,Medium,Standard
+313,Passive OS Fingerprinting,Low,High,Standard
+145,Checksum Spoofing,Medium,,Detailed
+200,"Removal of filters: Input filters, output filters, data masking",Medium,,Detailed
+331,ICMP IP Total Length Field Probe,Low,Medium,Detailed
+427,Influence via Psychological Principles,Low,Low,Standard
+127,Directory Indexing,Medium,High,Detailed
+292,Host Discovery,Low,,Standard
+612,WiFi MAC Address Tracking,Low,,Detailed
+54,Query System for Information,Low,High,Standard
+493,SOAP Array Blowup,,,Standard
+21,Exploitation of Trusted Identifiers,High,High,Meta
+37,Retrieve Embedded Sensitive Data,Very High,High,Detailed
+329,ICMP Error Message Quoting Probe,Low,Medium,Detailed
+628,Carry-Off GPS Attack,High,Low,Detailed
+630,TypoSquatting,Medium,Low,Detailed
+591,Reflected XSS,Very High,High,Detailed
+194,Fake the Source of Data,Medium,,Standard
+233,Privilege Escalation,,,Meta
+410,Information Elicitation,Low,,Meta
+111,JSON Hijacking (aka JavaScript Hijacking),High,High,Standard
+524,Rogue Integration Procedures,High,Low,Standard
+224,Fingerprinting,Very Low,High,Meta
+646,Peripheral Footprinting,Medium,Low,Standard
+20,Encryption Brute Forcing,Low,Low,Standard
+120,Double Encoding,Medium,Low,Detailed
+420,Influence Perception of Scarcity,Low,High,Detailed
+426,Influence via Incentives,Low,Low,Standard
+234,Hijacking a privileged process,Medium,,Standard
+590,IP Address Blocking,High,Low,Detailed
+637,Collect Data from Clipboard,Low,Low,Detailed
+291,DNS Zone Transfers,Low,,Detailed
+539,ASIC With Malicious Functionality,High,Low,Detailed
+322,TCP (ISN) Greatest Common Divisor Probe,Low,Medium,Detailed
+533,Malicious Manual Software Update,High,Low,Detailed
+619,Signal Strength Tracking,Low,,Detailed
+597,Absolute Path Traversal,,,Detailed
+298,UDP Ping,Low,,Detailed
+13,Subverting Environment Variable Values,Very High,High,Detailed
+61,Session Fixation,High,Medium,Detailed
+104,Cross Zone Scripting,High,Medium,Standard
+154,Resource Location Spoofing,Medium,Medium,Meta
+670,Software Development Tools Maliciously Altered,High,Low,Detailed
+549,Local Execution of Code,High,Medium,Meta
+679,Exploitation of Improperly Configured or Implemented Memory Protections,Very High,Medium,Detailed
+523,Malicious Software Implanted,High,Low,Standard
+323,TCP (ISN) Counter Rate Probe,Low,Medium,Detailed
+137,Parameter Injection,Medium,Medium,Meta
+564,Run Software at Logon,,,Detailed
+622,Electromagnetic Side-Channel Attack,Low,,Detailed
+636,Hiding Malicious Data or Code within Files,High,,Standard
+217,Exploiting Incorrectly Configured SSL/TLS,,Low,Standard
+680,Exploitation of Improperly Controlled Registers,High,Medium,Detailed
+702,Exploiting Incorrect Chaining or Granularity of Hardware Debug Components,Medium,Low,Detailed
+195,Principal Spoof,Medium,,Standard
+677,Server Motherboard Compromise,High,Low,Detailed
+516,Hardware Component Substitution During Baselining,High,Low,Detailed
+207,Removing Important Client Functionality,High,Medium,Standard
+185,Malicious Software Download,Very High,,Standard
+63,Cross-Site Scripting (XSS),Very High,High,Standard
+144,Detect Unpublicized Web Services,Low,,Detailed
+506,Tapjacking,Low,Low,Standard
+267,Leverage Alternate Encoding,High,High,Standard
+494,TCP Fragmentation,,,Standard
+275,DNS Rebinding,Very High,High,Detailed
+589,DNS Blocking,,,Detailed
+644,Use of Captured Hashes (Pass The Hash),High,Medium,Detailed
+461,Web Services API Signature Forgery Leveraging Hash Function Extension Weakness,High,,Standard
+53,"Postfix, Null Terminate, and Backslash",High,High,Detailed
+458,Flash Memory Attacks,,,Detailed
+388,Application API Button Hijacking,Medium,,Detailed
+443,Malicious Logic Inserted Into Product by Authorized Developer,High,Medium,Detailed
+592,Stored XSS,Very High,High,Detailed
+162,Manipulating Hidden Fields,High,,Detailed
+293,Traceroute Route Enumeration,Low,,Detailed
+476,Signature Spoofing by Misrepresentation,High,Low,Detailed
+531,Hardware Component Substitution,High,Low,Detailed
+129,Pointer Manipulation,Medium,,Meta
+556,Replace File Extension Handlers,,,Detailed
+159,Redirect Access to Libraries,Very High,High,Standard
+614,Rooting SIM Cards,High,,Detailed
+180,Exploiting Incorrectly Configured Access Control Security Levels,Medium,High,Standard
+428,Influence via Modes of Thinking,Low,,Detailed
+209,XSS Using MIME Type Mismatch,Medium,,Detailed
+78,Using Escaped Slashes in Alternate Encoding,High,High,Detailed
+202,Create Malicious Client,Medium,,Standard
+250,XML Injection,,High,Standard
+672,Malicious Code Implanted During Chip Programming,High,Low,Detailed
+508,Shoulder Surfing,High,High,Detailed
+669,Alteration of a Software Update,High,Medium,Standard
+187,Malicious Automated Software Update via Redirection,High,High,Detailed
+599,Terrestrial Jamming,High,Low,Detailed
+501,Android Activity Hijack,Medium,,Detailed
+662,Adversary in the Browser (AiTB),Very High,High,Standard
+240,Resource Injection,High,High,Meta
+68,Subvert Code-signing Facilities,Very High,Low,Standard
+71,Using Unicode Encoding to Bypass Validation Logic,High,Medium,Detailed
+177,Create files with the same name as files protected with a higher classification,Very High,,Detailed
+574,Services Footprinting,Low,Low,Standard
+486,UDP Flood,,,Standard
+122,Privilege Abuse,Medium,High,Meta
+652,Use of Known Kerberos Credentials,High,Medium,Standard
+105,HTTP Request Splitting,High,Medium,Detailed
+466,Leveraging Active Adversary in the Middle Attacks to Bypass Same Origin Policy,Medium,,Standard
+635,Alternative Execution Due to Deceptive Filenames,High,,Standard
+618,Cellular Broadcast Message Request,Low,,Detailed
+184,Software Integrity Attack,Low,,Meta
+31,Accessing/Intercepting/Modifying HTTP Cookies,High,High,Detailed
+151,Identity Spoofing,Medium,Medium,Meta
+43,Exploiting Multiple Input Interpretation Layers,High,Medium,Detailed
+534,Malicious Hardware Update,High,Low,Standard
+668,Key Negotiation of Bluetooth Attack (KNOB),High,Low,Standard
+285,ICMP Echo Request Ping,Low,Medium,Detailed
+206,Signing Malicious Code,Very High,,Detailed
+252,PHP Local File Inclusion,Medium,,Detailed
+471,Search Order Hijacking,Medium,,Detailed
+47,Buffer Overflow via Parameter Expansion,High,Medium,Detailed
+510,SaaS User Request Forgery,Medium,High,Standard
+324,TCP (ISN) Sequence Predictability Probe,Low,Medium,Detailed
+134,Email Injection,Medium,,Standard
+307,TCP RPC Scan,Low,,Detailed
+138,Reflection Injection,Very High,,Standard
+273,HTTP Response Smuggling,High,Medium,Detailed
+38,Leveraging/Manipulating Configuration File Search Paths,Very High,High,Detailed
+320,TCP Timestamp Probe,Low,Medium,Detailed
+188,Reverse Engineering,Low,Low,Meta
+109,Object Relational Mapping Injection,High,Low,Detailed
+664,Server Side Request Forgery,High,High,Standard
+560,Use of Known Domain Credentials,High,High,Meta
+563,Add Malicious File to Shared Webroot,,,Detailed
+60,Reusing Session IDs (aka Session Replay),High,High,Detailed
+478,Modification of Windows Service Configuration,High,Low,Detailed
+175,Code Inclusion,Very High,Medium,Meta
+327,TCP Options Probe,Low,Medium,Detailed
+131,Resource Leak Exposure,Medium,Medium,Meta
+492,Regular Expression Exponential Blowup,,,Standard
+543,Counterfeit Websites,High,,Detailed
+18,XSS Targeting Non-Script Elements,Very High,High,Detailed
+40,Manipulating Writeable Terminal Devices,Very High,High,Standard
+611,BitSquatting,Medium,Low,Detailed
+10,Buffer Overflow via Environment Variables,High,High,Detailed
+609,Cellular Traffic Intercept,Low,,Detailed
+425,Target Influence via Framing,Low,Low,Standard
+394,Using a Snap Gun Lock to Force a Lock,,,Detailed
+164,Mobile Phishing,High,High,Detailed
+64,Using Slashes and URL Encoding Combined to Bypass Validation Logic,High,High,Detailed
+272,Protocol Manipulation,Medium,,Meta
+580,System Footprinting,Low,Low,Standard
+102,Session Sidejacking,High,High,Detailed
+11,Cause Web Server Misclassification,High,Medium,Detailed
+108,Command Line Execution through SQL Injection,Very High,Low,Detailed
+416,Manipulate Human Behavior,Medium,Medium,Meta
+499,Android Intent Intercept,,,Standard
+101,Server Side Include (SSI) Injection,High,High,Detailed
+631,SoundSquatting,Medium,Low,Detailed
+243,XSS Targeting HTML Attributes,Medium,,Detailed
+596,TCP RST Injection,,,Detailed
+587,Cross Frame Scripting (XFS),High,,Detailed
+445,Malicious Logic Insertion into Product Software via Configuration Management Manipulation,High,Medium,Detailed
+700,Network Boundary Bridging,High,Medium,Standard
+155,Screen Temporary Files for Sensitive Information,Medium,Medium,Detailed
+328,TCP 'RST' Flag Checksum Probe,Low,Medium,Detailed
+17,Using Malicious Files,Very High,High,Standard
+694,System Location Discovery,Very Low,High,Standard
+583,Disabling Network Hardware,,,Detailed
+30,Hijacking a Privileged Thread of Execution,Very High,Low,Standard
+1,Accessing Functionality Not Properly Constrained by ACLs,High,High,Standard
+605,Cellular Jamming,Low,,Detailed
+135,Format String Injection,High,High,Standard
+27,Leveraging Race Conditions via Symbolic Links,High,Medium,Detailed
+304,TCP Null Scan,Low,,Detailed
+504,Task Impersonation,High,Medium,Standard
+665,Exploitation of Thunderbolt Protection Flaws,Very High,Low,Detailed
+296,ICMP Information Request,Low,,Detailed
+465,Transparent Proxy Abuse,Medium,,Standard
+318,IP 'ID' Echoed Byte-Order Probe,Low,Medium,Detailed
+479,Malicious Root Certificate,Low,Low,Detailed
+482,TCP Flood,,,Standard
+279,SOAP Manipulation,High,Medium,Detailed
+540,Overread Buffers,High,Low,Standard
+121,Exploit Non-Production Interfaces,High,Low,Standard
+537,Infiltration of Hardware Development Environment,High,Low,Detailed
+698,Install Malicious Extension,High,Medium,Detailed
+203,Manipulate Registry Information,Medium,,Standard
+321,TCP Sequence Number Probe,Low,Medium,Detailed
+397,Cloning Magnetic Strip Cards,,,Detailed
+422,Influence Perception of Commitment and Consistency,Low,High,Detailed
+308,UDP Scan,Low,,Detailed
+472,Browser Fingerprinting,Low,,Detailed
+547,Physical Destruction of Device or Component,,,Standard
+655,Avoid Security Tool Identification by Adding Data,High,High,Detailed
+469,HTTP DoS,Low,,Standard
+387,Navigation Remapping To Propagate Malicious Content,Medium,,Detailed
+550,Install New Service,,,Detailed
+638,Altered Component Firmware,Very High,Low,Detailed
+573,Process Footprinting,Low,Low,Standard
+226,Session Credential Falsification through Manipulation,Medium,,Detailed
+651,Eavesdropping,Medium,,Standard
+648,Collect Data from Screen Capture,Medium,Medium,Detailed
+390,Bypassing Physical Security,,,Meta
+500,WebView Injection,,,Detailed
+44,Overflow Binary Resource File,Very High,High,Detailed
+128,Integer Attacks,Medium,,Standard
+125,Flooding,Medium,High,Meta
+161,Infrastructure Manipulation,High,,Meta
+475,Signature Spoofing by Improper Validation,High,Low,Detailed
+530,Provide Counterfeit Component,High,Low,Detailed
+691,Spoof Open-Source Software Metadata,High,Medium,Standard
+661,Root/Jailbreak Detection Evasion via Debugging,Very High,Medium,Detailed
+158,Sniffing Network Traffic,Medium,,Detailed
+276,Inter-component Protocol Manipulation,,,Standard
+412,Pretexting via Customer Service,Low,,Detailed
+462,Cross-Domain Search Timing,Medium,,Detailed
+70,Try Common or Default Usernames and Passwords,High,Medium,Detailed
+115,Authentication Bypass,Medium,,Meta
+5,Blue Boxing,Very High,Medium,Detailed
+34,HTTP Response Splitting,High,Medium,Detailed
+191,Read Sensitive Constants Within an Executable,Low,,Detailed
+67,String Format Overflow in syslog(),Very High,High,Detailed
+625,Mobile Device Fault Injection,,,Standard
+178,Cross-Site Flashing,Medium,Medium,Detailed
+439,Manipulation During Distribution,,,Meta
+24,Filter Failure through Buffer Overflow,High,High,Detailed
+442,Infected Software,High,Medium,Standard
+495,UDP Fragmentation,,,Standard
+507,Physical Theft,,,Meta
+615,Evil Twin Wi-Fi Attack,Low,,Detailed
+681,Exploitation of Improperly Controlled Hardware Security Identifiers,Very High,Medium,Detailed
+181,Flash File Overlay,Medium,,Detailed
+168,Windows ::DATA Alternate Data Stream,Medium,,Detailed
+593,Session Hijacking,Very High,High,Standard
+77,Manipulating User-Controlled Variables,Very High,High,Standard
+429,Target Influence via Eye Cues,Low,,Detailed
+256,SOAP Array Overflow,High,,Detailed
+14,Client-side Injection-induced Buffer Overflow,High,Medium,Detailed
+517,Documentation Alteration to Circumvent Dial-down,High,Low,Detailed
+678,System Build Data Maliciously Altered,High,Low,Detailed
+98,Phishing,Very High,High,Standard
+83,XPath Injection,High,High,Detailed
+81,Web Server Logs Tampering,High,Medium,Detailed
+88,OS Command Injection,High,High,Standard
+89,Pharming,Very High,High,Standard
+92,Forced Integer Overflow,High,High,Detailed
+79,Using Slashes in Alternate Encoding,High,High,Detailed
+85,AJAX Footprinting,Low,High,Detailed
+95,WSDL Scanning,High,High,Detailed
+9,Buffer Overflow in Local Command-Line Utilities,High,High,Detailed
+94,Adversary in the Middle (AiTM),Very High,High,Meta
+86,XSS Through HTTP Headers,Very High,High,Detailed
+96,Block Access to Libraries,Medium,Medium,Detailed
+84,XQuery Injection,Very High,High,Detailed
+8,Buffer Overflow in an API Call,High,High,Detailed
+93,Log Injection-Tampering-Forging,High,High,Detailed
+97,Cryptanalysis,Very High,Low,Standard
+80,Using UTF-8 Encoding to Bypass Validation Logic,High,High,Detailed
+87,Forceful Browsing,High,High,Standard
+90,Reflection Attack in Authentication Protocol,High,High,Standard

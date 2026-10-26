@@ -1,0 +1,922 @@
+attack_id,name,domain,url
+T1040,Network Sniffing,enterprise-attack,https://attack.mitre.org/techniques/T1040
+T1041,Exfiltration Over C2 Channel,enterprise-attack,https://attack.mitre.org/techniques/T1041
+T1033,System Owner/User Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1033
+T1070.003,Indicator Removal: Clear Command History,enterprise-attack,https://attack.mitre.org/techniques/T1070/003
+T1053,Scheduled Task/Job,enterprise-attack,https://attack.mitre.org/techniques/T1053
+T1048,Exfiltration Over Alternative Protocol,enterprise-attack,https://attack.mitre.org/techniques/T1048
+T1071,Application Layer Protocol,enterprise-attack,https://attack.mitre.org/techniques/T1071
+T1546.008,Event Triggered Execution: Accessibility Features,enterprise-attack,https://attack.mitre.org/techniques/T1546/008
+T1190,Exploit Public-Facing Application,enterprise-attack,https://attack.mitre.org/techniques/T1190
+T1546.009,Event Triggered Execution: AppCert DLLs,enterprise-attack,https://attack.mitre.org/techniques/T1546/009
+T1197,BITS Jobs,enterprise-attack,https://attack.mitre.org/techniques/T1197
+T1546.002,Event Triggered Execution: Screensaver,enterprise-attack,https://attack.mitre.org/techniques/T1546/002
+T1055.009,Process Injection: Proc Memory,enterprise-attack,https://attack.mitre.org/techniques/T1055/009
+T1546.003,Event Triggered Execution: Windows Management Instrumentation Event Subscription,enterprise-attack,https://attack.mitre.org/techniques/T1546/003
+T1546.004,Event Triggered Execution: Unix Shell Configuration Modification,enterprise-attack,https://attack.mitre.org/techniques/T1546/004
+T1546.006,Event Triggered Execution: LC_LOAD_DYLIB Addition,enterprise-attack,https://attack.mitre.org/techniques/T1546/006
+T1055.005,Process Injection: Thread Local Storage,enterprise-attack,https://attack.mitre.org/techniques/T1055/005
+T1055.004,Process Injection: Asynchronous Procedure Call,enterprise-attack,https://attack.mitre.org/techniques/T1055/004
+T1055.002,Process Injection: Portable Executable Injection,enterprise-attack,https://attack.mitre.org/techniques/T1055/002
+T1055.001,Process Injection: Dynamic-link Library Injection,enterprise-attack,https://attack.mitre.org/techniques/T1055/001
+T1071.002,Application Layer Protocol: File Transfer Protocols,enterprise-attack,https://attack.mitre.org/techniques/T1071/002
+T1112,Modify Registry,enterprise-attack,https://attack.mitre.org/techniques/T1112
+T1578.003,Modify Cloud Compute Infrastructure: Delete Cloud Instance,enterprise-attack,https://attack.mitre.org/techniques/T1578/003
+T1561.002,Disk Wipe: Disk Structure Wipe,enterprise-attack,https://attack.mitre.org/techniques/T1561/002
+T1484,Domain or Tenant Policy Modification,enterprise-attack,https://attack.mitre.org/techniques/T1484
+T1125,Video Capture,enterprise-attack,https://attack.mitre.org/techniques/T1125
+T1005,Data from Local System,enterprise-attack,https://attack.mitre.org/techniques/T1005
+T1562.002,,,
+T1562.003,,,
+T1071.004,Application Layer Protocol: DNS,enterprise-attack,https://attack.mitre.org/techniques/T1071/004
+T1025,Data from Removable Media,enterprise-attack,https://attack.mitre.org/techniques/T1025
+T1037.001,Boot or Logon Initialization Scripts: Logon Script (Windows),enterprise-attack,https://attack.mitre.org/techniques/T1037/001
+T1037.005,Boot or Logon Initialization Scripts: Startup Items,enterprise-attack,https://attack.mitre.org/techniques/T1037/005
+T1037.002,Boot or Logon Initialization Scripts: Login Hook,enterprise-attack,https://attack.mitre.org/techniques/T1037/002
+T1056.001,Input Capture: Keylogging,enterprise-attack,https://attack.mitre.org/techniques/T1056/001
+T1056.004,Input Capture: Credential API Hooking,enterprise-attack,https://attack.mitre.org/techniques/T1056/004
+T1056.003,Input Capture: Web Portal Capture,enterprise-attack,https://attack.mitre.org/techniques/T1056/003
+T1556,Modify Authentication Process,enterprise-attack,https://attack.mitre.org/techniques/T1556
+T1558,Steal or Forge Kerberos Tickets,enterprise-attack,https://attack.mitre.org/techniques/T1558
+T1048.003,Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted Non-C2 Protocol,enterprise-attack,https://attack.mitre.org/techniques/T1048/003
+T1048.002,Exfiltration Over Alternative Protocol: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,enterprise-attack,https://attack.mitre.org/techniques/T1048/002
+T1568,Dynamic Resolution,enterprise-attack,https://attack.mitre.org/techniques/T1568
+T1203,Exploitation for Client Execution,enterprise-attack,https://attack.mitre.org/techniques/T1203
+T1207,Rogue Domain Controller,enterprise-attack,https://attack.mitre.org/techniques/T1207
+T1211,Exploitation for Stealth,enterprise-attack,https://attack.mitre.org/techniques/T1211
+T1210,Exploitation of Remote Services,enterprise-attack,https://attack.mitre.org/techniques/T1210
+T1134.004,Access Token Manipulation: Parent PID Spoofing,enterprise-attack,https://attack.mitre.org/techniques/T1134/004
+T1134.002,Access Token Manipulation: Create Process with Token,enterprise-attack,https://attack.mitre.org/techniques/T1134/002
+T1036.004,Masquerading: Masquerade Task or Service,enterprise-attack,https://attack.mitre.org/techniques/T1036/004
+T1222,File and Directory Permissions Modification,enterprise-attack,https://attack.mitre.org/techniques/T1222
+T1105,Ingress Tool Transfer,enterprise-attack,https://attack.mitre.org/techniques/T1105
+T1543.004,Create or Modify System Process: Launch Daemon,enterprise-attack,https://attack.mitre.org/techniques/T1543/004
+T1136.001,Create Account: Local Account,enterprise-attack,https://attack.mitre.org/techniques/T1136/001
+T1649,Steal or Forge Authentication Certificates,enterprise-attack,https://attack.mitre.org/techniques/T1649
+T1528,Steal Application Access Token,enterprise-attack,https://attack.mitre.org/techniques/T1528
+T1564.002,Hide Artifacts: Hidden Users,enterprise-attack,https://attack.mitre.org/techniques/T1564/002
+T1114.001,Email Collection: Local Email Collection,enterprise-attack,https://attack.mitre.org/techniques/T1114/001
+T1564.003,Hide Artifacts: Hidden Window,enterprise-attack,https://attack.mitre.org/techniques/T1564/003
+T1564.005,Hide Artifacts: Hidden File System,enterprise-attack,https://attack.mitre.org/techniques/T1564/005
+T1078.004,Valid Accounts: Cloud Accounts,enterprise-attack,https://attack.mitre.org/techniques/T1078/004
+T1078.003,Valid Accounts: Local Accounts,enterprise-attack,https://attack.mitre.org/techniques/T1078/003
+T1078.002,Valid Accounts: Domain Accounts,enterprise-attack,https://attack.mitre.org/techniques/T1078/002
+T1078.001,Valid Accounts: Default Accounts,enterprise-attack,https://attack.mitre.org/techniques/T1078/001
+T1558.001,Steal or Forge Kerberos Tickets: Golden Ticket,enterprise-attack,https://attack.mitre.org/techniques/T1558/001
+T1558.003,Steal or Forge Kerberos Tickets: Kerberoasting,enterprise-attack,https://attack.mitre.org/techniques/T1558/003
+T0866,Exploitation of Remote Services,ics-attack,https://attack.mitre.org/techniques/T0866
+T1074.002,Data Staged: Remote Data Staging,enterprise-attack,https://attack.mitre.org/techniques/T1074/002
+T1074.001,Data Staged: Local Data Staging,enterprise-attack,https://attack.mitre.org/techniques/T1074/001
+T1003.006,OS Credential Dumping: DCSync,enterprise-attack,https://attack.mitre.org/techniques/T1003/006
+T1003.005,OS Credential Dumping: Cached Domain Credentials,enterprise-attack,https://attack.mitre.org/techniques/T1003/005
+T1003.003,OS Credential Dumping: NTDS,enterprise-attack,https://attack.mitre.org/techniques/T1003/003
+T1542.005,Pre-OS Boot: TFTP Boot,enterprise-attack,https://attack.mitre.org/techniques/T1542/005
+T1003.008,OS Credential Dumping: /etc/passwd and /etc/shadow,enterprise-attack,https://attack.mitre.org/techniques/T1003/008
+T1542.001,Pre-OS Boot: System Firmware,enterprise-attack,https://attack.mitre.org/techniques/T1542/001
+T1003.002,OS Credential Dumping: Security Account Manager,enterprise-attack,https://attack.mitre.org/techniques/T1003/002
+T1574.006,Hijack Execution Flow: Dynamic Linker Hijacking,enterprise-attack,https://attack.mitre.org/techniques/T1574/006
+T1574.004,Hijack Execution Flow: Dylib Hijacking,enterprise-attack,https://attack.mitre.org/techniques/T1574/004
+T1574.005,Hijack Execution Flow: Executable Installer File Permissions Weakness,enterprise-attack,https://attack.mitre.org/techniques/T1574/005
+T1213.002,Data from Information Repositories: Sharepoint,enterprise-attack,https://attack.mitre.org/techniques/T1213/002
+T0884,Connection Proxy,ics-attack,https://attack.mitre.org/techniques/T0884
+T1027.004,Obfuscated Files or Information: Compile After Delivery,enterprise-attack,https://attack.mitre.org/techniques/T1027/004
+T0885,Commonly Used Port,ics-attack,https://attack.mitre.org/techniques/T0885
+T0888,Remote System Information Discovery,ics-attack,https://attack.mitre.org/techniques/T0888
+T0887,Wireless Sniffing,ics-attack,https://attack.mitre.org/techniques/T0887
+T1574.002,,,
+T1619,Cloud Storage Object Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1619
+T1204.001,User Execution: Malicious Link,enterprise-attack,https://attack.mitre.org/techniques/T1204/001
+T1574.001,Hijack Execution Flow: DLL,enterprise-attack,https://attack.mitre.org/techniques/T1574/001
+T0890,Exploitation for Privilege Escalation,ics-attack,https://attack.mitre.org/techniques/T0890
+T0895,Autorun Image,ics-attack,https://attack.mitre.org/techniques/T0895
+T0894,System Binary Proxy Execution,ics-attack,https://attack.mitre.org/techniques/T0894
+T1098.002,Account Manipulation: Additional Email Delegate Permissions,enterprise-attack,https://attack.mitre.org/techniques/T1098/002
+T0822,External Remote Services,ics-attack,https://attack.mitre.org/techniques/T0822
+T0821,Modify Controller Tasking,ics-attack,https://attack.mitre.org/techniques/T0821
+T1566.002,Phishing: Spearphishing Link,enterprise-attack,https://attack.mitre.org/techniques/T1566/002
+T1566.001,Phishing: Spearphishing Attachment,enterprise-attack,https://attack.mitre.org/techniques/T1566/001
+T0835,Manipulate I/O Image,ics-attack,https://attack.mitre.org/techniques/T0835
+T1556.003,Modify Authentication Process: Pluggable Authentication Modules,enterprise-attack,https://attack.mitre.org/techniques/T1556/003
+T1573.002,Encrypted Channel: Asymmetric Cryptography,enterprise-attack,https://attack.mitre.org/techniques/T1573/002
+T0843,Program Download,ics-attack,https://attack.mitre.org/techniques/T0843
+T0848,Rogue Master,ics-attack,https://attack.mitre.org/techniques/T0848
+T0847,Replication Through Removable Media,ics-attack,https://attack.mitre.org/techniques/T0847
+T0851,Rootkit,ics-attack,https://attack.mitre.org/techniques/T0851
+T0858,Change Operating Mode,ics-attack,https://attack.mitre.org/techniques/T0858
+T1110.003,Brute Force: Password Spraying,enterprise-attack,https://attack.mitre.org/techniques/T1110/003
+T1560.002,Archive Collected Data: Archive via Library,enterprise-attack,https://attack.mitre.org/techniques/T1560/002
+T1110.001,Brute Force: Password Guessing,enterprise-attack,https://attack.mitre.org/techniques/T1110/001
+T0807,Command-Line Interface,ics-attack,https://attack.mitre.org/techniques/T0807
+T0809,Data Destruction,ics-attack,https://attack.mitre.org/techniques/T0809
+T1087.001,Account Discovery: Local Account,enterprise-attack,https://attack.mitre.org/techniques/T1087/001
+T1505.002,Server Software Component: Transport Agent,enterprise-attack,https://attack.mitre.org/techniques/T1505/002
+T1087.002,Account Discovery: Domain Account,enterprise-attack,https://attack.mitre.org/techniques/T1087/002
+T1505.003,Server Software Component: Web Shell,enterprise-attack,https://attack.mitre.org/techniques/T1505/003
+T1548.002,Abuse Elevation Control Mechanism: Bypass User Account Control,enterprise-attack,https://attack.mitre.org/techniques/T1548/002
+T1505.001,Server Software Component: SQL Stored Procedures,enterprise-attack,https://attack.mitre.org/techniques/T1505/001
+T0806,Brute Force I/O,ics-attack,https://attack.mitre.org/techniques/T0806
+T0819,Exploit Public-Facing Application,ics-attack,https://attack.mitre.org/techniques/T0819
+T1053.005,Scheduled Task/Job: Scheduled Task,enterprise-attack,https://attack.mitre.org/techniques/T1053/005
+T0813,Denial of Control,ics-attack,https://attack.mitre.org/techniques/T0813
+T0814,Denial of Service,ics-attack,https://attack.mitre.org/techniques/T0814
+T0817,Drive-by Compromise,ics-attack,https://attack.mitre.org/techniques/T0817
+T1082,System Information Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1082
+T1083,File and Directory Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1083
+T1497.003,Virtualization/Sandbox Evasion: Time Based Checks,enterprise-attack,https://attack.mitre.org/techniques/T1497/003
+T1078,Valid Accounts,enterprise-attack,https://attack.mitre.org/techniques/T1078
+T1199,Trusted Relationship,enterprise-attack,https://attack.mitre.org/techniques/T1199
+T1091,Replication Through Removable Media,enterprise-attack,https://attack.mitre.org/techniques/T1091
+T1098,Account Manipulation,enterprise-attack,https://attack.mitre.org/techniques/T1098
+T1547.002,Boot or Logon Autostart Execution: Authentication Package,enterprise-attack,https://attack.mitre.org/techniques/T1547/002
+T1547.001,Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder,enterprise-attack,https://attack.mitre.org/techniques/T1547/001
+T1547.009,Boot or Logon Autostart Execution: Shortcut Modification,enterprise-attack,https://attack.mitre.org/techniques/T1547/009
+T1052.001,Exfiltration Over Physical Medium: Exfiltration over USB,enterprise-attack,https://attack.mitre.org/techniques/T1052/001
+T1569.002,System Services: Service Execution,enterprise-attack,https://attack.mitre.org/techniques/T1569/002
+T1569.003,System Services: Systemctl,enterprise-attack,https://attack.mitre.org/techniques/T1569/003
+T1569.001,System Services: Launchctl,enterprise-attack,https://attack.mitre.org/techniques/T1569/001
+T1398,Boot or Logon Initialization Scripts,mobile-attack,https://attack.mitre.org/techniques/T1398
+T1585.001,Establish Accounts: Social Media Accounts,enterprise-attack,https://attack.mitre.org/techniques/T1585/001
+T1585.003,Establish Accounts: Cloud Accounts,enterprise-attack,https://attack.mitre.org/techniques/T1585/003
+T1585.002,Establish Accounts: Email Accounts,enterprise-attack,https://attack.mitre.org/techniques/T1585/002
+T1418.001,Security Software Discovery,mobile-attack,https://attack.mitre.org/techniques/T1418/001
+T1691.001,Command Message,ics-attack,https://attack.mitre.org/techniques/T1691/001
+T1691.002,Reporting Message,ics-attack,https://attack.mitre.org/techniques/T1691/002
+T1578.002,Modify Cloud Compute Infrastructure: Create Cloud Instance,enterprise-attack,https://attack.mitre.org/techniques/T1578/002
+T1578.001,Modify Cloud Compute Infrastructure: Create Snapshot,enterprise-attack,https://attack.mitre.org/techniques/T1578/001
+T1578.005,Modify Cloud Compute Infrastructure: Modify Cloud Compute Configurations,enterprise-attack,https://attack.mitre.org/techniques/T1578/005
+T1069.003,Permission Groups Discovery: Cloud Groups,enterprise-attack,https://attack.mitre.org/techniques/T1069/003
+T1069.001,Permission Groups Discovery: Local Groups,enterprise-attack,https://attack.mitre.org/techniques/T1069/001
+T1069.002,Permission Groups Discovery: Domain Groups,enterprise-attack,https://attack.mitre.org/techniques/T1069/002
+T1587.003,Develop Capabilities: Digital Certificates,enterprise-attack,https://attack.mitre.org/techniques/T1587/003
+T1684.001,Social Engineering: Impersonation,enterprise-attack,https://attack.mitre.org/techniques/T1684/001
+T1587.002,Develop Capabilities: Code Signing Certificates,enterprise-attack,https://attack.mitre.org/techniques/T1587/002
+T1587.004,Develop Capabilities: Exploits,enterprise-attack,https://attack.mitre.org/techniques/T1587/004
+T1684.002,Social Engineering: Email Spoofing,enterprise-attack,https://attack.mitre.org/techniques/T1684/002
+T1587.001,Develop Capabilities: Malware,enterprise-attack,https://attack.mitre.org/techniques/T1587/001
+T1601.001,Modify System Image: Patch System Image,enterprise-attack,https://attack.mitre.org/techniques/T1601/001
+T1601.002,Modify System Image: Downgrade System Image,enterprise-attack,https://attack.mitre.org/techniques/T1601/002
+T1693.002,Module Firmware,ics-attack,https://attack.mitre.org/techniques/T1693/002
+T1693.001,System Firmware,ics-attack,https://attack.mitre.org/techniques/T1693/001
+T1020.001,Automated Exfiltration: Traffic Duplication,enterprise-attack,https://attack.mitre.org/techniques/T1020/001
+T1114.002,Email Collection: Remote Email Collection,enterprise-attack,https://attack.mitre.org/techniques/T1114/002
+T1114.003,Email Collection: Email Forwarding Rule,enterprise-attack,https://attack.mitre.org/techniques/T1114/003
+T1558.002,Steal or Forge Kerberos Tickets: Silver Ticket,enterprise-attack,https://attack.mitre.org/techniques/T1558/002
+T1558.005,Steal or Forge Kerberos Tickets: Ccache Files,enterprise-attack,https://attack.mitre.org/techniques/T1558/005
+T1558.004,Steal or Forge Kerberos Tickets: AS-REP Roasting,enterprise-attack,https://attack.mitre.org/techniques/T1558/004
+T1592.001,Gather Victim Host Information: Hardware,enterprise-attack,https://attack.mitre.org/techniques/T1592/001
+T1592.002,Gather Victim Host Information: Software,enterprise-attack,https://attack.mitre.org/techniques/T1592/002
+T1592.003,Gather Victim Host Information: Firmware,enterprise-attack,https://attack.mitre.org/techniques/T1592/003
+T1592.004,Gather Victim Host Information: Client Configurations,enterprise-attack,https://attack.mitre.org/techniques/T1592/004
+T1090.003,Proxy: Multi-hop Proxy,enterprise-attack,https://attack.mitre.org/techniques/T1090/003
+T1090.004,Proxy: Domain Fronting,enterprise-attack,https://attack.mitre.org/techniques/T1090/004
+T1090.001,Proxy: Internal Proxy,enterprise-attack,https://attack.mitre.org/techniques/T1090/001
+T1090.002,Proxy: External Proxy,enterprise-attack,https://attack.mitre.org/techniques/T1090/002
+T1623.001,Unix Shell,mobile-attack,https://attack.mitre.org/techniques/T1623/001
+T0860,Wireless Compromise,ics-attack,https://attack.mitre.org/techniques/T0860
+T0862,Supply Chain Compromise,ics-attack,https://attack.mitre.org/techniques/T0862
+T0861,Point & Tag Identification,ics-attack,https://attack.mitre.org/techniques/T0861
+T0864,Transient Cyber Asset,ics-attack,https://attack.mitre.org/techniques/T0864
+T0863,User Execution,ics-attack,https://attack.mitre.org/techniques/T0863
+T0865,Spearphishing Attachment,ics-attack,https://attack.mitre.org/techniques/T0865
+T0868,Detect Operating Mode,ics-attack,https://attack.mitre.org/techniques/T0868
+T0867,Lateral Tool Transfer,ics-attack,https://attack.mitre.org/techniques/T0867
+T0869,Standard Application Layer Protocol,ics-attack,https://attack.mitre.org/techniques/T0869
+T0871,Execution through API,ics-attack,https://attack.mitre.org/techniques/T0871
+T0873,Project File Infection,ics-attack,https://attack.mitre.org/techniques/T0873
+T0872,Indicator Removal on Host,ics-attack,https://attack.mitre.org/techniques/T0872
+T1542.004,Pre-OS Boot: ROMMONkit,enterprise-attack,https://attack.mitre.org/techniques/T1542/004
+T0874,Hooking,ics-attack,https://attack.mitre.org/techniques/T0874
+T1542.003,Pre-OS Boot: Bootkit,enterprise-attack,https://attack.mitre.org/techniques/T1542/003
+T1542.002,Pre-OS Boot: Component Firmware,enterprise-attack,https://attack.mitre.org/techniques/T1542/002
+T0877,I/O Image,ics-attack,https://attack.mitre.org/techniques/T0877
+T0879,Damage to Property,ics-attack,https://attack.mitre.org/techniques/T0879
+T0878,Alarm Suppression,ics-attack,https://attack.mitre.org/techniques/T0878
+T1484.001,Domain or Tenant Policy Modification: Group Policy Modification,enterprise-attack,https://attack.mitre.org/techniques/T1484/001
+T1484.002,Domain or Tenant Policy Modification: Trust Modification,enterprise-attack,https://attack.mitre.org/techniques/T1484/002
+T1213.006,Data from Information Repositories: Databases,enterprise-attack,https://attack.mitre.org/techniques/T1213/006
+T0880,Loss of Safety,ics-attack,https://attack.mitre.org/techniques/T0880
+T0882,Theft of Operational Information,ics-attack,https://attack.mitre.org/techniques/T0882
+T0881,Service Stop,ics-attack,https://attack.mitre.org/techniques/T0881
+T1565.001,Data Manipulation: Stored Data Manipulation,enterprise-attack,https://attack.mitre.org/techniques/T1565/001
+T1213.003,Data from Information Repositories: Code Repositories,enterprise-attack,https://attack.mitre.org/techniques/T1213/003
+T0883,Internet Accessible Device,ics-attack,https://attack.mitre.org/techniques/T0883
+T0886,Remote Services,ics-attack,https://attack.mitre.org/techniques/T0886
+T1213.004,Data from Information Repositories: Customer Relationship Management Software,enterprise-attack,https://attack.mitre.org/techniques/T1213/004
+T1213.005,Data from Information Repositories: Messaging Applications,enterprise-attack,https://attack.mitre.org/techniques/T1213/005
+T1565.003,Data Manipulation: Runtime Data Manipulation,enterprise-attack,https://attack.mitre.org/techniques/T1565/003
+T1565.002,Data Manipulation: Transmitted Data Manipulation,enterprise-attack,https://attack.mitre.org/techniques/T1565/002
+T1213.001,Data from Information Repositories: Confluence,enterprise-attack,https://attack.mitre.org/techniques/T1213/001
+T0889,Modify Program,ics-attack,https://attack.mitre.org/techniques/T0889
+T1655.001,Match Legitimate Name or Location,mobile-attack,https://attack.mitre.org/techniques/T1655/001
+T0893,Data from Local System,ics-attack,https://attack.mitre.org/techniques/T0893
+T0892,Change Credential,ics-attack,https://attack.mitre.org/techniques/T0892
+T1098.007,Account Manipulation: Additional Local or Domain Groups,enterprise-attack,https://attack.mitre.org/techniques/T1098/007
+T1098.004,Account Manipulation: SSH Authorized Keys,enterprise-attack,https://attack.mitre.org/techniques/T1098/004
+T1098.003,Account Manipulation: Additional Cloud Roles,enterprise-attack,https://attack.mitre.org/techniques/T1098/003
+T1098.006,Account Manipulation: Additional Container Cluster Roles,enterprise-attack,https://attack.mitre.org/techniques/T1098/006
+T1098.005,Account Manipulation: Device Registration,enterprise-attack,https://attack.mitre.org/techniques/T1098/005
+T1098.001,Account Manipulation: Additional Cloud Credentials,enterprise-attack,https://attack.mitre.org/techniques/T1098/001
+T0829,Loss of View,ics-attack,https://attack.mitre.org/techniques/T0829
+T1614.001,System Location Discovery: System Language Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1614/001
+T0820,Exploitation for Evasion,ics-attack,https://attack.mitre.org/techniques/T0820
+T0823,Graphical User Interface,ics-attack,https://attack.mitre.org/techniques/T0823
+T0826,Loss of Availability,ics-attack,https://attack.mitre.org/techniques/T0826
+T0828,Loss of Productivity and Revenue,ics-attack,https://attack.mitre.org/techniques/T0828
+T0827,Loss of Control,ics-attack,https://attack.mitre.org/techniques/T0827
+T1499.001,Endpoint Denial of Service: OS Exhaustion Flood,enterprise-attack,https://attack.mitre.org/techniques/T1499/001
+T1499.002,Endpoint Denial of Service: Service Exhaustion Flood,enterprise-attack,https://attack.mitre.org/techniques/T1499/002
+T1499.003,Endpoint Denial of Service: Application Exhaustion Flood,enterprise-attack,https://attack.mitre.org/techniques/T1499/003
+T1499.004,Endpoint Denial of Service: Application or System Exploitation,enterprise-attack,https://attack.mitre.org/techniques/T1499/004
+T1598.002,Phishing for Information: Spearphishing Attachment,enterprise-attack,https://attack.mitre.org/techniques/T1598/002
+T1598.003,Phishing for Information: Spearphishing Link,enterprise-attack,https://attack.mitre.org/techniques/T1598/003
+T1598.004,Phishing for Information: Spearphishing Voice,enterprise-attack,https://attack.mitre.org/techniques/T1598/004
+T0831,Manipulation of Control,ics-attack,https://attack.mitre.org/techniques/T0831
+T0830,Adversary-in-the-Middle,ics-attack,https://attack.mitre.org/techniques/T0830
+T0832,Manipulation of View,ics-attack,https://attack.mitre.org/techniques/T0832
+T1598.001,Phishing for Information: Spearphishing Service,enterprise-attack,https://attack.mitre.org/techniques/T1598/001
+T0834,Native API,ics-attack,https://attack.mitre.org/techniques/T0834
+T0836,Modify Parameter,ics-attack,https://attack.mitre.org/techniques/T0836
+T1695.001,Serial COM,ics-attack,https://attack.mitre.org/techniques/T1695/001
+T1695.002,Ethernet,ics-attack,https://attack.mitre.org/techniques/T1695/002
+T0838,Modify Alarm Settings,ics-attack,https://attack.mitre.org/techniques/T0838
+T1695.003,Wi-Fi,ics-attack,https://attack.mitre.org/techniques/T1695/003
+T1556.005,Modify Authentication Process: Reversible Encryption,enterprise-attack,https://attack.mitre.org/techniques/T1556/005
+T1556.004,Modify Authentication Process: Network Device Authentication,enterprise-attack,https://attack.mitre.org/techniques/T1556/004
+T1556.007,Modify Authentication Process: Hybrid Identity,enterprise-attack,https://attack.mitre.org/techniques/T1556/007
+T1556.006,Modify Authentication Process: Multi-Factor Authentication,enterprise-attack,https://attack.mitre.org/techniques/T1556/006
+T1556.001,Modify Authentication Process: Domain Controller Authentication,enterprise-attack,https://attack.mitre.org/techniques/T1556/001
+T1556.002,Modify Authentication Process: Password Filter DLL,enterprise-attack,https://attack.mitre.org/techniques/T1556/002
+T0840,Network Connection Enumeration,ics-attack,https://attack.mitre.org/techniques/T0840
+T0842,Network Sniffing,ics-attack,https://attack.mitre.org/techniques/T0842
+T0846,Remote System Discovery,ics-attack,https://attack.mitre.org/techniques/T0846
+T0845,Program Upload,ics-attack,https://attack.mitre.org/techniques/T0845
+T1556.009,Modify Authentication Process: Conditional Access Policies,enterprise-attack,https://attack.mitre.org/techniques/T1556/009
+T1556.008,Modify Authentication Process: Network Provider DLL,enterprise-attack,https://attack.mitre.org/techniques/T1556/008
+T0849,Masquerading,ics-attack,https://attack.mitre.org/techniques/T0849
+T0853,Scripting,ics-attack,https://attack.mitre.org/techniques/T0853
+T0852,Screen Capture,ics-attack,https://attack.mitre.org/techniques/T0852
+T1011.001,Exfiltration Over Other Network Medium: Exfiltration Over Bluetooth,enterprise-attack,https://attack.mitre.org/techniques/T1011/001
+T0859,Valid Accounts,ics-attack,https://attack.mitre.org/techniques/T0859
+T1639.001,Exfiltration Over Unencrypted Non-C2 Protocol,mobile-attack,https://attack.mitre.org/techniques/T1639/001
+T1110.002,Brute Force: Password Cracking,enterprise-attack,https://attack.mitre.org/techniques/T1110/002
+T1110.004,Brute Force: Credential Stuffing,enterprise-attack,https://attack.mitre.org/techniques/T1110/004
+T1583.001,Acquire Infrastructure: Domains,enterprise-attack,https://attack.mitre.org/techniques/T1583/001
+T1567.004,Exfiltration Over Web Service: Exfiltration Over Webhook,enterprise-attack,https://attack.mitre.org/techniques/T1567/004
+T1583.003,Acquire Infrastructure: Virtual Private Server,enterprise-attack,https://attack.mitre.org/techniques/T1583/003
+T1567.003,Exfiltration Over Web Service: Exfiltration to Text Storage Sites,enterprise-attack,https://attack.mitre.org/techniques/T1567/003
+T1567.002,Exfiltration Over Web Service: Exfiltration to Cloud Storage,enterprise-attack,https://attack.mitre.org/techniques/T1567/002
+T1583.002,Acquire Infrastructure: DNS Server,enterprise-attack,https://attack.mitre.org/techniques/T1583/002
+T1583.005,Acquire Infrastructure: Botnet,enterprise-attack,https://attack.mitre.org/techniques/T1583/005
+T1567.001,Exfiltration Over Web Service: Exfiltration to Code Repository,enterprise-attack,https://attack.mitre.org/techniques/T1567/001
+T1583.004,Acquire Infrastructure: Server,enterprise-attack,https://attack.mitre.org/techniques/T1583/004
+T1583.007,Acquire Infrastructure: Serverless,enterprise-attack,https://attack.mitre.org/techniques/T1583/007
+T1583.006,Acquire Infrastructure: Web Services,enterprise-attack,https://attack.mitre.org/techniques/T1583/006
+T1583.008,Acquire Infrastructure: Malvertising,enterprise-attack,https://attack.mitre.org/techniques/T1583/008
+T0800,Activate Firmware Update Mode,ics-attack,https://attack.mitre.org/techniques/T0800
+T0802,Automated Collection,ics-attack,https://attack.mitre.org/techniques/T0802
+T0801,Monitor Process State,ics-attack,https://attack.mitre.org/techniques/T0801
+T1053.003,Scheduled Task/Job: Cron,enterprise-attack,https://attack.mitre.org/techniques/T1053/003
+T1053.002,Scheduled Task/Job: At,enterprise-attack,https://attack.mitre.org/techniques/T1053/002
+T1053.007,Scheduled Task/Job: Container Orchestration Job,enterprise-attack,https://attack.mitre.org/techniques/T1053/007
+T1053.006,Scheduled Task/Job: Systemd Timers,enterprise-attack,https://attack.mitre.org/techniques/T1053/006
+T1625.001,System Runtime API Hijacking,mobile-attack,https://attack.mitre.org/techniques/T1625/001
+T0811,Data from Information Repositories,ics-attack,https://attack.mitre.org/techniques/T0811
+T0815,Denial of View,ics-attack,https://attack.mitre.org/techniques/T0815
+T0816,Device Restart/Shutdown,ics-attack,https://attack.mitre.org/techniques/T0816
+T1497.001,Virtualization/Sandbox Evasion: System Checks,enterprise-attack,https://attack.mitre.org/techniques/T1497/001
+T1497.002,Virtualization/Sandbox Evasion: User Activity Based Checks,enterprise-attack,https://attack.mitre.org/techniques/T1497/002
+T1553.001,Subvert Trust Controls: Gatekeeper Bypass,enterprise-attack,https://attack.mitre.org/techniques/T1553/001
+T1553.002,Subvert Trust Controls: Code Signing,enterprise-attack,https://attack.mitre.org/techniques/T1553/002
+T1596.001,Search Open Technical Databases: DNS/Passive DNS,enterprise-attack,https://attack.mitre.org/techniques/T1596/001
+T1596.002,Search Open Technical Databases: WHOIS,enterprise-attack,https://attack.mitre.org/techniques/T1596/002
+T1596.003,Search Open Technical Databases: Digital Certificates,enterprise-attack,https://attack.mitre.org/techniques/T1596/003
+T1553.005,Subvert Trust Controls: Mark-of-the-Web Bypass,enterprise-attack,https://attack.mitre.org/techniques/T1553/005
+T1596.004,Search Open Technical Databases: CDNs,enterprise-attack,https://attack.mitre.org/techniques/T1596/004
+T1596.005,Search Open Technical Databases: Scan Databases,enterprise-attack,https://attack.mitre.org/techniques/T1596/005
+T1553.006,Subvert Trust Controls: Code Signing Policy Modification,enterprise-attack,https://attack.mitre.org/techniques/T1553/006
+T1553.003,Subvert Trust Controls: SIP and Trust Provider Hijacking,enterprise-attack,https://attack.mitre.org/techniques/T1553/003
+T1553.004,Subvert Trust Controls: Install Root Certificate,enterprise-attack,https://attack.mitre.org/techniques/T1553/004
+T1195.002,Supply Chain Compromise: Compromise Software Supply Chain,enterprise-attack,https://attack.mitre.org/techniques/T1195/002
+T1195.001,Supply Chain Compromise: Compromise Software Dependencies and Development Tools,enterprise-attack,https://attack.mitre.org/techniques/T1195/001
+T1195.003,Supply Chain Compromise: Compromise Hardware Supply Chain,enterprise-attack,https://attack.mitre.org/techniques/T1195/003
+T0843.003,Program Append,ics-attack,https://attack.mitre.org/techniques/T0843/003
+T0843.002,Online Edit,ics-attack,https://attack.mitre.org/techniques/T0843/002
+T0843.001,Download All,ics-attack,https://attack.mitre.org/techniques/T0843/001
+T1071.001,Application Layer Protocol: Web Protocols,enterprise-attack,https://attack.mitre.org/techniques/T1071/001
+T1071.003,Application Layer Protocol: Mail Protocols,enterprise-attack,https://attack.mitre.org/techniques/T1071/003
+T1634.001,Keychain,mobile-attack,https://attack.mitre.org/techniques/T1634/001
+T1628.002,User Evasion,mobile-attack,https://attack.mitre.org/techniques/T1628/002
+T1628.003,Conceal Multimedia Files,mobile-attack,https://attack.mitre.org/techniques/T1628/003
+T1599.001,Network Boundary Bridging: Network Address Translation Traversal,enterprise-attack,https://attack.mitre.org/techniques/T1599/001
+T1628.001,Suppress Application Icon,mobile-attack,https://attack.mitre.org/techniques/T1628/001
+T1071.005,Application Layer Protocol: Publish/Subscribe Protocols,enterprise-attack,https://attack.mitre.org/techniques/T1071/005
+T1056.002,Input Capture: GUI Input Capture,enterprise-attack,https://attack.mitre.org/techniques/T1056/002
+T1680,Local Storage Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1680
+T1681,Search Threat Vendor Data,enterprise-attack,https://attack.mitre.org/techniques/T1681
+T1674,Input Injection,enterprise-attack,https://attack.mitre.org/techniques/T1674
+T1641.001,Transmitted Data Manipulation,mobile-attack,https://attack.mitre.org/techniques/T1641/001
+T1671,Cloud Application Integration,enterprise-attack,https://attack.mitre.org/techniques/T1671
+T1677,Poisoned Pipeline Execution,enterprise-attack,https://attack.mitre.org/techniques/T1677
+T1678,Delay Execution,enterprise-attack,https://attack.mitre.org/techniques/T1678
+T1675,ESXi Administration Command,enterprise-attack,https://attack.mitre.org/techniques/T1675
+T1676,Linked Devices,mobile-attack,https://attack.mitre.org/techniques/T1676
+T1564.011,Hide Artifacts: Ignore Process Interrupts,enterprise-attack,https://attack.mitre.org/techniques/T1564/011
+T1564.013,Hide Artifacts: Bind Mounts,enterprise-attack,https://attack.mitre.org/techniques/T1564/013
+T1564.012,Hide Artifacts: File/Path Exclusions,enterprise-attack,https://attack.mitre.org/techniques/T1564/012
+T1691,Block Operational Technology Message,ics-attack,https://attack.mitre.org/techniques/T1691
+T1692,Unauthorized Message,ics-attack,https://attack.mitre.org/techniques/T1692
+T1564.014,Hide Artifacts: Extended Attributes,enterprise-attack,https://attack.mitre.org/techniques/T1564/014
+T1690,Prevent Command History Logging,enterprise-attack,https://attack.mitre.org/techniques/T1690
+T1200,Hardware Additions,enterprise-attack,https://attack.mitre.org/techniques/T1200
+T1684,Social Engineering,enterprise-attack,https://attack.mitre.org/techniques/T1684
+T1685,Disable or Modify Tools,enterprise-attack,https://attack.mitre.org/techniques/T1685
+T1201,Password Policy Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1201
+T1682,Query Public AI Services,enterprise-attack,https://attack.mitre.org/techniques/T1682
+T1683,Generate Content,enterprise-attack,https://attack.mitre.org/techniques/T1683
+T1204,User Execution,enterprise-attack,https://attack.mitre.org/techniques/T1204
+T1688,Safe Mode Boot,enterprise-attack,https://attack.mitre.org/techniques/T1688
+T1205,Traffic Signaling,enterprise-attack,https://attack.mitre.org/techniques/T1205
+T1689,Downgrade Attack,enterprise-attack,https://attack.mitre.org/techniques/T1689
+T1686,Disable or Modify System Firewall,enterprise-attack,https://attack.mitre.org/techniques/T1686
+T1202,Indirect Command Execution,enterprise-attack,https://attack.mitre.org/techniques/T1202
+T1036.010,Masquerading: Masquerade Account Name,enterprise-attack,https://attack.mitre.org/techniques/T1036/010
+T1036.012,Masquerading: Browser Fingerprint,enterprise-attack,https://attack.mitre.org/techniques/T1036/012
+T1636.002,Call Log,mobile-attack,https://attack.mitre.org/techniques/T1636/002
+T1636.001,Calendar Entries,mobile-attack,https://attack.mitre.org/techniques/T1636/001
+T1636.004,SMS Messages,mobile-attack,https://attack.mitre.org/techniques/T1636/004
+T1636.003,Contact List,mobile-attack,https://attack.mitre.org/techniques/T1636/003
+T1695,Block Communications,ics-attack,https://attack.mitre.org/techniques/T1695
+T1212,Exploitation for Credential Access,enterprise-attack,https://attack.mitre.org/techniques/T1212
+T1693,Modify Firmware,ics-attack,https://attack.mitre.org/techniques/T1693
+T1694,Insecure Credentials,ics-attack,https://attack.mitre.org/techniques/T1694
+T1216,System Script Proxy Execution,enterprise-attack,https://attack.mitre.org/techniques/T1216
+T1213,Data from Information Repositories,enterprise-attack,https://attack.mitre.org/techniques/T1213
+T1219,Remote Access Tools,enterprise-attack,https://attack.mitre.org/techniques/T1219
+T1636.005,Accounts,mobile-attack,https://attack.mitre.org/techniques/T1636/005
+T1217,Browser Information Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1217
+T1218,System Binary Proxy Execution,enterprise-attack,https://attack.mitre.org/techniques/T1218
+T1036.001,Masquerading: Invalid Code Signature,enterprise-attack,https://attack.mitre.org/techniques/T1036/001
+T1036.002,Masquerading: Right-to-Left Override,enterprise-attack,https://attack.mitre.org/techniques/T1036/002
+T1134.005,Access Token Manipulation: SID-History Injection,enterprise-attack,https://attack.mitre.org/techniques/T1134/005
+T1036.007,Masquerading: Double File Extension,enterprise-attack,https://attack.mitre.org/techniques/T1036/007
+T1036.008,Masquerading: Masquerade File Type,enterprise-attack,https://attack.mitre.org/techniques/T1036/008
+T1134.003,Access Token Manipulation: Make and Impersonate Token,enterprise-attack,https://attack.mitre.org/techniques/T1134/003
+T1134.001,Access Token Manipulation: Token Impersonation/Theft,enterprise-attack,https://attack.mitre.org/techniques/T1134/001
+T1036.003,Masquerading: Rename Legitimate Utilities,enterprise-attack,https://attack.mitre.org/techniques/T1036/003
+T1036.005,Masquerading: Match Legitimate Resource Name or Location,enterprise-attack,https://attack.mitre.org/techniques/T1036/005
+T1036.006,Masquerading: Space after Filename,enterprise-attack,https://attack.mitre.org/techniques/T1036/006
+T1608.006,Stage Capabilities: SEO Poisoning,enterprise-attack,https://attack.mitre.org/techniques/T1608/006
+T1220,XSL Script Processing,enterprise-attack,https://attack.mitre.org/techniques/T1220
+T1608.005,Stage Capabilities: Link Target,enterprise-attack,https://attack.mitre.org/techniques/T1608/005
+T1221,Template Injection,enterprise-attack,https://attack.mitre.org/techniques/T1221
+T1608.004,Stage Capabilities: Drive-by Target,enterprise-attack,https://attack.mitre.org/techniques/T1608/004
+T1608.003,Stage Capabilities: Install Digital Certificate,enterprise-attack,https://attack.mitre.org/techniques/T1608/003
+T1608.002,Stage Capabilities: Upload Tool,enterprise-attack,https://attack.mitre.org/techniques/T1608/002
+T1608.001,Stage Capabilities: Upload Malware,enterprise-attack,https://attack.mitre.org/techniques/T1608/001
+T1136.002,Create Account: Domain Account,enterprise-attack,https://attack.mitre.org/techniques/T1136/002
+T1136.003,Create Account: Cloud Account,enterprise-attack,https://attack.mitre.org/techniques/T1136/003
+T1543.003,Create or Modify System Process: Windows Service,enterprise-attack,https://attack.mitre.org/techniques/T1543/003
+T1543.002,Create or Modify System Process: Systemd Service,enterprise-attack,https://attack.mitre.org/techniques/T1543/002
+T1543.005,Create or Modify System Process: Container Service,enterprise-attack,https://attack.mitre.org/techniques/T1543/005
+T1543.001,Create or Modify System Process: Launch Agent,enterprise-attack,https://attack.mitre.org/techniques/T1543/001
+T1630,Indicator Removal on Host,mobile-attack,https://attack.mitre.org/techniques/T1630
+T1634,Credentials from Password Store,mobile-attack,https://attack.mitre.org/techniques/T1634
+T1632,Subvert Trust Controls,mobile-attack,https://attack.mitre.org/techniques/T1632
+T1638,Adversary-in-the-Middle,mobile-attack,https://attack.mitre.org/techniques/T1638
+T1635,Steal Application Access Token,mobile-attack,https://attack.mitre.org/techniques/T1635
+T1636,Protected User Data,mobile-attack,https://attack.mitre.org/techniques/T1636
+T1640,Account Access Removal,mobile-attack,https://attack.mitre.org/techniques/T1640
+T1641,Data Manipulation,mobile-attack,https://attack.mitre.org/techniques/T1641
+T1644,Out of Band Data,mobile-attack,https://attack.mitre.org/techniques/T1644
+T1645,Compromise Client Software Binary,mobile-attack,https://attack.mitre.org/techniques/T1645
+T1642,Endpoint Denial of Service,mobile-attack,https://attack.mitre.org/techniques/T1642
+T1643,Generate Traffic from Victim,mobile-attack,https://attack.mitre.org/techniques/T1643
+T1648,Serverless Execution,enterprise-attack,https://attack.mitre.org/techniques/T1648
+T1646,Exfiltration Over C2 Channel,mobile-attack,https://attack.mitre.org/techniques/T1646
+T1647,Plist File Modification,enterprise-attack,https://attack.mitre.org/techniques/T1647
+T1564.001,Hide Artifacts: Hidden Files and Directories,enterprise-attack,https://attack.mitre.org/techniques/T1564/001
+T1564.008,Hide Artifacts: Email Hiding Rules,enterprise-attack,https://attack.mitre.org/techniques/T1564/008
+T1564.007,Hide Artifacts: VBA Stomping,enterprise-attack,https://attack.mitre.org/techniques/T1564/007
+T1564.009,Hide Artifacts: Resource Forking,enterprise-attack,https://attack.mitre.org/techniques/T1564/009
+T1564.004,Hide Artifacts: NTFS File Attributes,enterprise-attack,https://attack.mitre.org/techniques/T1564/004
+T1564.006,Hide Artifacts: Run Virtual Instance,enterprise-attack,https://attack.mitre.org/techniques/T1564/006
+T1651,Cloud Administration Command,enterprise-attack,https://attack.mitre.org/techniques/T1651
+T1652,Device Driver Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1652
+T1650,Acquire Access,enterprise-attack,https://attack.mitre.org/techniques/T1650
+T1655,Masquerading,mobile-attack,https://attack.mitre.org/techniques/T1655
+T1653,Power Settings,enterprise-attack,https://attack.mitre.org/techniques/T1653
+T1654,Log Enumeration,enterprise-attack,https://attack.mitre.org/techniques/T1654
+T1659,Content Injection,enterprise-attack,https://attack.mitre.org/techniques/T1659
+T1657,Financial Theft,enterprise-attack,https://attack.mitre.org/techniques/T1657
+T1658,Exploitation for Client Execution,mobile-attack,https://attack.mitre.org/techniques/T1658
+T1670,Virtualization Solution,mobile-attack,https://attack.mitre.org/techniques/T1670
+T1662,Data Destruction,mobile-attack,https://attack.mitre.org/techniques/T1662
+T1663,Remote Access Software,mobile-attack,https://attack.mitre.org/techniques/T1663
+T1660,Phishing,mobile-attack,https://attack.mitre.org/techniques/T1660
+T1661,Application Versioning,mobile-attack,https://attack.mitre.org/techniques/T1661
+T1666,Modify Cloud Resource Hierarchy,enterprise-attack,https://attack.mitre.org/techniques/T1666
+T1667,Email Bombing,enterprise-attack,https://attack.mitre.org/techniques/T1667
+T1664,Exploitation for Initial Access,mobile-attack,https://attack.mitre.org/techniques/T1664
+T1686.001,Disable or Modify System Firewall: Cloud Firewall,enterprise-attack,https://attack.mitre.org/techniques/T1686/001
+T1665,Hide Infrastructure,enterprise-attack,https://attack.mitre.org/techniques/T1665
+T1686.003,Disable or Modify System Firewall: Windows Host Firewall,enterprise-attack,https://attack.mitre.org/techniques/T1686/003
+T1686.002,Disable or Modify System Firewall: Network Device Firewall,enterprise-attack,https://attack.mitre.org/techniques/T1686/002
+T1669,Wi-Fi Networks,enterprise-attack,https://attack.mitre.org/techniques/T1669
+T1430.001,Remote Device Management Services,mobile-attack,https://attack.mitre.org/techniques/T1430/001
+T1430.002,Impersonate SS7 Nodes,mobile-attack,https://attack.mitre.org/techniques/T1430/002
+T1601,Modify System Image,enterprise-attack,https://attack.mitre.org/techniques/T1601
+T1604,Proxy Through Victim,mobile-attack,https://attack.mitre.org/techniques/T1604
+T1602,Data from Configuration Repository,enterprise-attack,https://attack.mitre.org/techniques/T1602
+T1603,Scheduled Task/Job,mobile-attack,https://attack.mitre.org/techniques/T1603
+T1608,Stage Capabilities,enterprise-attack,https://attack.mitre.org/techniques/T1608
+T1609,Container Administration Command,enterprise-attack,https://attack.mitre.org/techniques/T1609
+T1606,Forge Web Credentials,enterprise-attack,https://attack.mitre.org/techniques/T1606
+T1132.001,Data Encoding: Standard Encoding,enterprise-attack,https://attack.mitre.org/techniques/T1132/001
+T1611,Escape to Host,enterprise-attack,https://attack.mitre.org/techniques/T1611
+T1612,Build Image on Host,enterprise-attack,https://attack.mitre.org/techniques/T1612
+T1132.002,Data Encoding: Non-Standard Encoding,enterprise-attack,https://attack.mitre.org/techniques/T1132/002
+T1610,Deploy Container,enterprise-attack,https://attack.mitre.org/techniques/T1610
+T1615,Group Policy Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1615
+T1204.005,User Execution: Malicious Library,enterprise-attack,https://attack.mitre.org/techniques/T1204/005
+T1204.004,User Execution: Malicious Copy and Paste,enterprise-attack,https://attack.mitre.org/techniques/T1204/004
+T1616,Call Control,mobile-attack,https://attack.mitre.org/techniques/T1616
+T1613,Container and Resource Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1613
+T1614,System Location Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1614
+T1204.003,User Execution: Malicious Image,enterprise-attack,https://attack.mitre.org/techniques/T1204/003
+T1617,Hooking,mobile-attack,https://attack.mitre.org/techniques/T1617
+T1204.002,User Execution: Malicious File,enterprise-attack,https://attack.mitre.org/techniques/T1204/002
+T1622,Debugger Evasion,enterprise-attack,https://attack.mitre.org/techniques/T1622
+T1623,Command and Scripting Interpreter,mobile-attack,https://attack.mitre.org/techniques/T1623
+T1620,Reflective Code Loading,enterprise-attack,https://attack.mitre.org/techniques/T1620
+T1621,Multi-Factor Authentication Request Generation,enterprise-attack,https://attack.mitre.org/techniques/T1621
+T1626,Abuse Elevation Control Mechanism,mobile-attack,https://attack.mitre.org/techniques/T1626
+T1627,Execution Guardrails,mobile-attack,https://attack.mitre.org/techniques/T1627
+T1624,Event Triggered Execution,mobile-attack,https://attack.mitre.org/techniques/T1624
+T1625,Hijack Execution Flow,mobile-attack,https://attack.mitre.org/techniques/T1625
+T1629,Impair Defenses,mobile-attack,https://attack.mitre.org/techniques/T1629
+T1606.001,Forge Web Credentials: Web Cookies,enterprise-attack,https://attack.mitre.org/techniques/T1606/001
+T1606.002,Forge Web Credentials: SAML Tokens,enterprise-attack,https://attack.mitre.org/techniques/T1606/002
+T1590.001,Gather Victim Network Information: Domain Properties,enterprise-attack,https://attack.mitre.org/techniques/T1590/001
+T1573.001,Encrypted Channel: Symmetric Cryptography,enterprise-attack,https://attack.mitre.org/techniques/T1573/001
+T1590.005,Gather Victim Network Information: IP Addresses,enterprise-attack,https://attack.mitre.org/techniques/T1590/005
+T1590.004,Gather Victim Network Information: Network Topology,enterprise-attack,https://attack.mitre.org/techniques/T1590/004
+T1590.003,Gather Victim Network Information: Network Trust Dependencies,enterprise-attack,https://attack.mitre.org/techniques/T1590/003
+T1590.002,Gather Victim Network Information: DNS,enterprise-attack,https://attack.mitre.org/techniques/T1590/002
+T1590.006,Gather Victim Network Information: Network Security Appliances,enterprise-attack,https://attack.mitre.org/techniques/T1590/006
+T1588.007,Obtain Capabilities: Artificial Intelligence,enterprise-attack,https://attack.mitre.org/techniques/T1588/007
+T1588.006,Obtain Capabilities: Vulnerabilities,enterprise-attack,https://attack.mitre.org/techniques/T1588/006
+T1588.005,Obtain Capabilities: Exploits,enterprise-attack,https://attack.mitre.org/techniques/T1588/005
+T1588.004,Obtain Capabilities: Digital Certificates,enterprise-attack,https://attack.mitre.org/techniques/T1588/004
+T1588.003,Obtain Capabilities: Code Signing Certificates,enterprise-attack,https://attack.mitre.org/techniques/T1588/003
+T1588.002,Obtain Capabilities: Tool,enterprise-attack,https://attack.mitre.org/techniques/T1588/002
+T1588.001,Obtain Capabilities: Malware,enterprise-attack,https://attack.mitre.org/techniques/T1588/001
+T1406.002,Software Packing,mobile-attack,https://attack.mitre.org/techniques/T1406/002
+T1630.002,File Deletion,mobile-attack,https://attack.mitre.org/techniques/T1630/002
+T1630.001,Uninstall Malicious Application,mobile-attack,https://attack.mitre.org/techniques/T1630/001
+T1406.001,Steganography,mobile-attack,https://attack.mitre.org/techniques/T1406/001
+T1560.003,Archive Collected Data: Archive via Custom Method,enterprise-attack,https://attack.mitre.org/techniques/T1560/003
+T1560.001,Archive Collected Data: Archive via Utility,enterprise-attack,https://attack.mitre.org/techniques/T1560/001
+T1102.002,Web Service: Bidirectional Communication,enterprise-attack,https://attack.mitre.org/techniques/T1102/002
+T1102.001,Web Service: Dead Drop Resolver,enterprise-attack,https://attack.mitre.org/techniques/T1102/001
+T1102.003,Web Service: One-Way Communication,enterprise-attack,https://attack.mitre.org/techniques/T1102/003
+T1632.001,Code Signing Policy Modification,mobile-attack,https://attack.mitre.org/techniques/T1632/001
+T1547.015,Boot or Logon Autostart Execution: Login Items,enterprise-attack,https://attack.mitre.org/techniques/T1547/015
+T1547.013,Boot or Logon Autostart Execution: XDG Autostart Entries,enterprise-attack,https://attack.mitre.org/techniques/T1547/013
+T1547.012,Boot or Logon Autostart Execution: Print Processors,enterprise-attack,https://attack.mitre.org/techniques/T1547/012
+T1219.001,Remote Access Tools: IDE Tunneling,enterprise-attack,https://attack.mitre.org/techniques/T1219/001
+T1219.003,Remote Access Tools: Remote Access Hardware,enterprise-attack,https://attack.mitre.org/techniques/T1219/003
+T1219.002,Remote Access Tools: Remote Desktop Software,enterprise-attack,https://attack.mitre.org/techniques/T1219/002
+T1547.004,Boot or Logon Autostart Execution: Winlogon Helper DLL,enterprise-attack,https://attack.mitre.org/techniques/T1547/004
+T1547.005,Boot or Logon Autostart Execution: Security Support Provider,enterprise-attack,https://attack.mitre.org/techniques/T1547/005
+T1547.003,Boot or Logon Autostart Execution: Time Providers,enterprise-attack,https://attack.mitre.org/techniques/T1547/003
+T1547.008,Boot or Logon Autostart Execution: LSASS Driver,enterprise-attack,https://attack.mitre.org/techniques/T1547/008
+T1547.006,Boot or Logon Autostart Execution: Kernel Modules and Extensions,enterprise-attack,https://attack.mitre.org/techniques/T1547/006
+T1547.007,Boot or Logon Autostart Execution: Re-opened Applications,enterprise-attack,https://attack.mitre.org/techniques/T1547/007
+T1185,Browser Session Hijacking,enterprise-attack,https://attack.mitre.org/techniques/T1185
+T1176,Software Extensions,enterprise-attack,https://attack.mitre.org/techniques/T1176
+T1195,Supply Chain Compromise,enterprise-attack,https://attack.mitre.org/techniques/T1195
+T1189,Drive-by Compromise,enterprise-attack,https://attack.mitre.org/techniques/T1189
+T1187,Forced Authentication,enterprise-attack,https://attack.mitre.org/techniques/T1187
+T1593.003,Search Open Websites/Domains: Code Repositories,enterprise-attack,https://attack.mitre.org/techniques/T1593/003
+T1593.001,Search Open Websites/Domains: Social Media,enterprise-attack,https://attack.mitre.org/techniques/T1593/001
+T1593.002,Search Open Websites/Domains: Search Engines,enterprise-attack,https://attack.mitre.org/techniques/T1593/002
+T0873.001,Siemens Project File Format,ics-attack,https://attack.mitre.org/techniques/T0873/001
+T1683.002,Generate Content: Audio-Visual Content,enterprise-attack,https://attack.mitre.org/techniques/T1683/002
+T1683.001,Generate Content: Written Content,enterprise-attack,https://attack.mitre.org/techniques/T1683/001
+T1120,Peripheral Device Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1120
+T1596,Search Open Technical Databases,enterprise-attack,https://attack.mitre.org/techniques/T1596
+T1113,Screen Capture,enterprise-attack,https://attack.mitre.org/techniques/T1113
+T1597,Search Closed Sources,enterprise-attack,https://attack.mitre.org/techniques/T1597
+T1110,Brute Force,enterprise-attack,https://attack.mitre.org/techniques/T1110
+T1594,Search Victim-Owned Websites,enterprise-attack,https://attack.mitre.org/techniques/T1594
+T1111,Multi-Factor Authentication Interception,enterprise-attack,https://attack.mitre.org/techniques/T1111
+T1595,Active Scanning,enterprise-attack,https://attack.mitre.org/techniques/T1595
+T1114,Email Collection,enterprise-attack,https://attack.mitre.org/techniques/T1114
+T1598,Phishing for Information,enterprise-attack,https://attack.mitre.org/techniques/T1598
+T1115,Clipboard Data,enterprise-attack,https://attack.mitre.org/techniques/T1115
+T1599,Network Boundary Bridging,enterprise-attack,https://attack.mitre.org/techniques/T1599
+T1119,Automated Collection,enterprise-attack,https://attack.mitre.org/techniques/T1119
+T1584.008,Compromise Infrastructure: Network Devices,enterprise-attack,https://attack.mitre.org/techniques/T1584/008
+T1584.007,Compromise Infrastructure: Serverless,enterprise-attack,https://attack.mitre.org/techniques/T1584/007
+T1584.006,Compromise Infrastructure: Web Services,enterprise-attack,https://attack.mitre.org/techniques/T1584/006
+T1584.005,Compromise Infrastructure: Botnet,enterprise-attack,https://attack.mitre.org/techniques/T1584/005
+T1584.004,Compromise Infrastructure: Server,enterprise-attack,https://attack.mitre.org/techniques/T1584/004
+T1584.003,Compromise Infrastructure: Virtual Private Server,enterprise-attack,https://attack.mitre.org/techniques/T1584/003
+T1584.002,Compromise Infrastructure: DNS Server,enterprise-attack,https://attack.mitre.org/techniques/T1584/002
+T1584.001,Compromise Infrastructure: Domains,enterprise-attack,https://attack.mitre.org/techniques/T1584/001
+T1123,Audio Capture,enterprise-attack,https://attack.mitre.org/techniques/T1123
+T1124,System Time Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1124
+T1016.001,System Network Configuration Discovery: Internet Connection Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1016/001
+T1016.002,System Network Configuration Discovery: Wi-Fi Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1016/002
+T1127,Trusted Developer Utilities Proxy Execution,enterprise-attack,https://attack.mitre.org/techniques/T1127
+T1129,Shared Modules,enterprise-attack,https://attack.mitre.org/techniques/T1129
+T1140,Deobfuscate/Decode Files or Information,enterprise-attack,https://attack.mitre.org/techniques/T1140
+T1134,Access Token Manipulation,enterprise-attack,https://attack.mitre.org/techniques/T1134
+T1135,Network Share Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1135
+T1132,Data Encoding,enterprise-attack,https://attack.mitre.org/techniques/T1132
+T1133,External Remote Services,enterprise-attack,https://attack.mitre.org/techniques/T1133
+T1136,Create Account,enterprise-attack,https://attack.mitre.org/techniques/T1136
+T1137,Office Application Startup,enterprise-attack,https://attack.mitre.org/techniques/T1137
+T1176.002,Software Extensions: IDE Extensions,enterprise-attack,https://attack.mitre.org/techniques/T1176/002
+T1602.001,Data from Configuration Repository: SNMP (MIB Dump),enterprise-attack,https://attack.mitre.org/techniques/T1602/001
+T1602.002,Data from Configuration Repository: Network Device Configuration Dump,enterprise-attack,https://attack.mitre.org/techniques/T1602/002
+T1176.001,Software Extensions: Browser Extensions,enterprise-attack,https://attack.mitre.org/techniques/T1176/001
+T1417.001,Keylogging,mobile-attack,https://attack.mitre.org/techniques/T1417/001
+T1417.002,GUI Input Capture,mobile-attack,https://attack.mitre.org/techniques/T1417/002
+T1021.007,Remote Services: Cloud Services,enterprise-attack,https://attack.mitre.org/techniques/T1021/007
+T1021.008,Remote Services: Direct Cloud VM Connections,enterprise-attack,https://attack.mitre.org/techniques/T1021/008
+T1021.001,Remote Services: Remote Desktop Protocol,enterprise-attack,https://attack.mitre.org/techniques/T1021/001
+T1021.002,Remote Services: SMB/Windows Admin Shares,enterprise-attack,https://attack.mitre.org/techniques/T1021/002
+T1692.001,Command Message,ics-attack,https://attack.mitre.org/techniques/T1692/001
+T1021.003,Remote Services: Distributed Component Object Model,enterprise-attack,https://attack.mitre.org/techniques/T1021/003
+T1692.002,Reporting Message,ics-attack,https://attack.mitre.org/techniques/T1692/002
+T1021.004,Remote Services: SSH,enterprise-attack,https://attack.mitre.org/techniques/T1021/004
+T1560,Archive Collected Data,enterprise-attack,https://attack.mitre.org/techniques/T1560
+T1021.005,Remote Services: VNC,enterprise-attack,https://attack.mitre.org/techniques/T1021/005
+T1021.006,Remote Services: Windows Remote Management,enterprise-attack,https://attack.mitre.org/techniques/T1021/006
+T1552,Unsecured Credentials,enterprise-attack,https://attack.mitre.org/techniques/T1552
+T1553,Subvert Trust Controls,enterprise-attack,https://attack.mitre.org/techniques/T1553
+T1550,Use Alternate Authentication Material,enterprise-attack,https://attack.mitre.org/techniques/T1550
+T1557,Adversary-in-the-Middle,enterprise-attack,https://attack.mitre.org/techniques/T1557
+T1554,Compromise Host Software Binary,enterprise-attack,https://attack.mitre.org/techniques/T1554
+T1555,Credentials from Password Stores,enterprise-attack,https://attack.mitre.org/techniques/T1555
+T1559,Inter-Process Communication,enterprise-attack,https://attack.mitre.org/techniques/T1559
+T1570,Lateral Tool Transfer,enterprise-attack,https://attack.mitre.org/techniques/T1570
+T1571,Non-Standard Port,enterprise-attack,https://attack.mitre.org/techniques/T1571
+T1563,Remote Service Session Hijacking,enterprise-attack,https://attack.mitre.org/techniques/T1563
+T1564,Hide Artifacts,enterprise-attack,https://attack.mitre.org/techniques/T1564
+T1561,Disk Wipe,enterprise-attack,https://attack.mitre.org/techniques/T1561
+T1567,Exfiltration Over Web Service,enterprise-attack,https://attack.mitre.org/techniques/T1567
+T1565,Data Manipulation,enterprise-attack,https://attack.mitre.org/techniques/T1565
+T1566,Phishing,enterprise-attack,https://attack.mitre.org/techniques/T1566
+T1569,System Services,enterprise-attack,https://attack.mitre.org/techniques/T1569
+T1582,SMS Control,mobile-attack,https://attack.mitre.org/techniques/T1582
+T1580,Cloud Infrastructure Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1580
+T1574,Hijack Execution Flow,enterprise-attack,https://attack.mitre.org/techniques/T1574
+T1575,Native API,mobile-attack,https://attack.mitre.org/techniques/T1575
+T1572,Protocol Tunneling,enterprise-attack,https://attack.mitre.org/techniques/T1572
+T1573,Encrypted Channel,enterprise-attack,https://attack.mitre.org/techniques/T1573
+T1578,Modify Cloud Compute Infrastructure,enterprise-attack,https://attack.mitre.org/techniques/T1578
+T1577,Compromise Application Executable,mobile-attack,https://attack.mitre.org/techniques/T1577
+T1591.002,Gather Victim Org Information: Business Relationships,enterprise-attack,https://attack.mitre.org/techniques/T1591/002
+T1591.001,Gather Victim Org Information: Determine Physical Locations,enterprise-attack,https://attack.mitre.org/techniques/T1591/001
+T1591.004,Gather Victim Org Information: Identify Roles,enterprise-attack,https://attack.mitre.org/techniques/T1591/004
+T1591.003,Gather Victim Org Information: Identify Business Tempo,enterprise-attack,https://attack.mitre.org/techniques/T1591/003
+T1592,Gather Victim Host Information,enterprise-attack,https://attack.mitre.org/techniques/T1592
+T1593,Search Open Websites/Domains,enterprise-attack,https://attack.mitre.org/techniques/T1593
+T1590,Gather Victim Network Information,enterprise-attack,https://attack.mitre.org/techniques/T1590
+T1591,Gather Victim Org Information,enterprise-attack,https://attack.mitre.org/techniques/T1591
+T1585,Establish Accounts,enterprise-attack,https://attack.mitre.org/techniques/T1585
+T1102,Web Service,enterprise-attack,https://attack.mitre.org/techniques/T1102
+T1586,Compromise Accounts,enterprise-attack,https://attack.mitre.org/techniques/T1586
+T1583,Acquire Infrastructure,enterprise-attack,https://attack.mitre.org/techniques/T1583
+T1584,Compromise Infrastructure,enterprise-attack,https://attack.mitre.org/techniques/T1584
+T1589,Gather Victim Identity Information,enterprise-attack,https://attack.mitre.org/techniques/T1589
+T1106,Native API,enterprise-attack,https://attack.mitre.org/techniques/T1106
+T1587,Develop Capabilities,enterprise-attack,https://attack.mitre.org/techniques/T1587
+T1104,Multi-Stage Channels,enterprise-attack,https://attack.mitre.org/techniques/T1104
+T1588,Obtain Capabilities,enterprise-attack,https://attack.mitre.org/techniques/T1588
+T1559.003,Inter-Process Communication: XPC Services,enterprise-attack,https://attack.mitre.org/techniques/T1559/003
+T1559.002,Inter-Process Communication: Dynamic Data Exchange,enterprise-attack,https://attack.mitre.org/techniques/T1559/002
+T1559.001,Inter-Process Communication: Component Object Model,enterprise-attack,https://attack.mitre.org/techniques/T1559/001
+T1586.003,Compromise Accounts: Cloud Accounts,enterprise-attack,https://attack.mitre.org/techniques/T1586/003
+T1586.002,Compromise Accounts: Email Accounts,enterprise-attack,https://attack.mitre.org/techniques/T1586/002
+T1586.001,Compromise Accounts: Social Media Accounts,enterprise-attack,https://attack.mitre.org/techniques/T1586/001
+T1512,Video Capture,mobile-attack,https://attack.mitre.org/techniques/T1512
+T1513,Screen Capture,mobile-attack,https://attack.mitre.org/techniques/T1513
+T1516,Input Injection,mobile-attack,https://attack.mitre.org/techniques/T1516
+T1517,Access Notifications,mobile-attack,https://attack.mitre.org/techniques/T1517
+T1518,Software Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1518
+T1521,Encrypted Channel,mobile-attack,https://attack.mitre.org/techniques/T1521
+T1525,Implant Internal Image,enterprise-attack,https://attack.mitre.org/techniques/T1525
+T1526,Cloud Service Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1526
+T1529,System Shutdown/Reboot,enterprise-attack,https://attack.mitre.org/techniques/T1529
+T1521.002,Asymmetric Cryptography,mobile-attack,https://attack.mitre.org/techniques/T1521/002
+T1521.003,SSL Pinning,mobile-attack,https://attack.mitre.org/techniques/T1521/003
+T1521.001,Symmetric Cryptography,mobile-attack,https://attack.mitre.org/techniques/T1521/001
+T1530,Data from Cloud Storage,enterprise-attack,https://attack.mitre.org/techniques/T1530
+T1531,Account Access Removal,enterprise-attack,https://attack.mitre.org/techniques/T1531
+T1485.001,Data Destruction: Lifecycle-Triggered Deletion,enterprise-attack,https://attack.mitre.org/techniques/T1485/001
+T1534,Internal Spearphishing,enterprise-attack,https://attack.mitre.org/techniques/T1534
+T1535,Unused/Unsupported Cloud Regions,enterprise-attack,https://attack.mitre.org/techniques/T1535
+T1532,Archive Collected Data,mobile-attack,https://attack.mitre.org/techniques/T1532
+T1533,Data from Local System,mobile-attack,https://attack.mitre.org/techniques/T1533
+T1538,Cloud Service Dashboard,enterprise-attack,https://attack.mitre.org/techniques/T1538
+T1539,Steal Web Session Cookie,enterprise-attack,https://attack.mitre.org/techniques/T1539
+T1537,Transfer Data to Cloud Account,enterprise-attack,https://attack.mitre.org/techniques/T1537
+T1541,Foreground Persistence,mobile-attack,https://attack.mitre.org/techniques/T1541
+T1542,Pre-OS Boot,enterprise-attack,https://attack.mitre.org/techniques/T1542
+T1546,Event Triggered Execution,enterprise-attack,https://attack.mitre.org/techniques/T1546
+T1543,Create or Modify System Process,enterprise-attack,https://attack.mitre.org/techniques/T1543
+T1544,Ingress Tool Transfer,mobile-attack,https://attack.mitre.org/techniques/T1544
+T1547,Boot or Logon Autostart Execution,enterprise-attack,https://attack.mitre.org/techniques/T1547
+T1548,Abuse Elevation Control Mechanism,enterprise-attack,https://attack.mitre.org/techniques/T1548
+T1437.001,Web Protocols,mobile-attack,https://attack.mitre.org/techniques/T1437/001
+T0846.002,Broadcast Discovery,ics-attack,https://attack.mitre.org/techniques/T0846/002
+T0846.001,Port Scan,ics-attack,https://attack.mitre.org/techniques/T0846/001
+T1597.001,Search Closed Sources: Threat Intel Vendors,enterprise-attack,https://attack.mitre.org/techniques/T1597/001
+T1597.002,Search Closed Sources: Purchase Technical Data,enterprise-attack,https://attack.mitre.org/techniques/T1597/002
+T1694.001,Default Credentials,ics-attack,https://attack.mitre.org/techniques/T1694/001
+T1694.002,Hardcoded Credentials,ics-attack,https://attack.mitre.org/techniques/T1694/002
+T1027.017,Obfuscated Files or Information: SVG Smuggling,enterprise-attack,https://attack.mitre.org/techniques/T1027/017
+T1027.016,Obfuscated Files or Information: Junk Code Insertion,enterprise-attack,https://attack.mitre.org/techniques/T1027/016
+T1027.013,Obfuscated Files or Information: Encrypted/Encoded File,enterprise-attack,https://attack.mitre.org/techniques/T1027/013
+T1027.012,Obfuscated Files or Information: LNK Icon Smuggling,enterprise-attack,https://attack.mitre.org/techniques/T1027/012
+T1027.015,Obfuscated Files or Information: Compression,enterprise-attack,https://attack.mitre.org/techniques/T1027/015
+T1027.014,Obfuscated Files or Information: Polymorphic Code,enterprise-attack,https://attack.mitre.org/techniques/T1027/014
+T0846.003,Multicast Discovery,ics-attack,https://attack.mitre.org/techniques/T0846/003
+T1027.011,Obfuscated Files or Information: Fileless Storage,enterprise-attack,https://attack.mitre.org/techniques/T1027/011
+T1027.010,Obfuscated Files or Information: Command Obfuscation,enterprise-attack,https://attack.mitre.org/techniques/T1027/010
+T1027.009,Obfuscated Files or Information: Embedded Payloads,enterprise-attack,https://attack.mitre.org/techniques/T1027/009
+T1557.002,Adversary-in-the-Middle: ARP Cache Poisoning,enterprise-attack,https://attack.mitre.org/techniques/T1557/002
+T1027.006,Obfuscated Files or Information: HTML Smuggling,enterprise-attack,https://attack.mitre.org/techniques/T1027/006
+T1027.005,Obfuscated Files or Information: Indicator Removal from Tools,enterprise-attack,https://attack.mitre.org/techniques/T1027/005
+T1557.001,Adversary-in-the-Middle: Name Resolution Poisoning and SMB Relay,enterprise-attack,https://attack.mitre.org/techniques/T1557/001
+T1027.007,Obfuscated Files or Information: Dynamic API Resolution,enterprise-attack,https://attack.mitre.org/techniques/T1027/007
+T1027.002,Obfuscated Files or Information: Software Packing,enterprise-attack,https://attack.mitre.org/techniques/T1027/002
+T1027.001,Obfuscated Files or Information: Binary Padding,enterprise-attack,https://attack.mitre.org/techniques/T1027/001
+T1557.004,Adversary-in-the-Middle: Evil Twin,enterprise-attack,https://attack.mitre.org/techniques/T1557/004
+T1027.003,Obfuscated Files or Information: Steganography,enterprise-attack,https://attack.mitre.org/techniques/T1027/003
+T1557.003,Adversary-in-the-Middle: DHCP Spoofing,enterprise-attack,https://attack.mitre.org/techniques/T1557/003
+T1685.002,Disable or Modify Tools: Disable or Modify Cloud Log,enterprise-attack,https://attack.mitre.org/techniques/T1685/002
+T1685.001,Disable or Modify Tools: Disable or Modify Windows Event Log,enterprise-attack,https://attack.mitre.org/techniques/T1685/001
+T1422.002,Wi-Fi Discovery,mobile-attack,https://attack.mitre.org/techniques/T1422/002
+T1685.006,Disable or Modify Tools: Clear Linux or Mac System Logs,enterprise-attack,https://attack.mitre.org/techniques/T1685/006
+T1422.001,Internet Connection Discovery,mobile-attack,https://attack.mitre.org/techniques/T1422/001
+T1685.005,Disable or Modify Tools: Clear Windows Event Logs,enterprise-attack,https://attack.mitre.org/techniques/T1685/005
+T1685.004,Disable or Modify Tools: Disable or Modify Linux Audit System Log,enterprise-attack,https://attack.mitre.org/techniques/T1685/004
+T1685.003,Disable or Modify Tools: Modify or Spoof Tool UI,enterprise-attack,https://attack.mitre.org/techniques/T1685/003
+T1505,Server Software Component,enterprise-attack,https://attack.mitre.org/techniques/T1505
+T1550.001,Use Alternate Authentication Material: Application Access Token,enterprise-attack,https://attack.mitre.org/techniques/T1550/001
+T1550.002,Use Alternate Authentication Material: Pass the Hash,enterprise-attack,https://attack.mitre.org/techniques/T1550/002
+T1509,Non-Standard Port,mobile-attack,https://attack.mitre.org/techniques/T1509
+T1550.003,Use Alternate Authentication Material: Pass the Ticket,enterprise-attack,https://attack.mitre.org/techniques/T1550/003
+T1550.004,Use Alternate Authentication Material: Web Session Cookie,enterprise-attack,https://attack.mitre.org/techniques/T1550/004
+T1624.001,Broadcast Receivers,mobile-attack,https://attack.mitre.org/techniques/T1624/001
+T1566.004,Phishing: Spearphishing Voice,enterprise-attack,https://attack.mitre.org/techniques/T1566/004
+T1566.003,Phishing: Spearphishing via Service,enterprise-attack,https://attack.mitre.org/techniques/T1566/003
+T1498.001,Network Denial of Service: Direct Network Flood,enterprise-attack,https://attack.mitre.org/techniques/T1498/001
+T1552.001,Unsecured Credentials: Credentials In Files,enterprise-attack,https://attack.mitre.org/techniques/T1552/001
+T1498.002,Network Denial of Service: Reflection Amplification,enterprise-attack,https://attack.mitre.org/techniques/T1498/002
+T1552.002,Unsecured Credentials: Credentials in Registry,enterprise-attack,https://attack.mitre.org/techniques/T1552/002
+T1552.003,Unsecured Credentials: Shell History,enterprise-attack,https://attack.mitre.org/techniques/T1552/003
+T1595.003,Active Scanning: Wordlist Scanning,enterprise-attack,https://attack.mitre.org/techniques/T1595/003
+T1595.001,Active Scanning: Scanning IP Blocks,enterprise-attack,https://attack.mitre.org/techniques/T1595/001
+T1595.002,Active Scanning: Vulnerability Scanning,enterprise-attack,https://attack.mitre.org/techniques/T1595/002
+T1552.008,Unsecured Credentials: Chat Messages,enterprise-attack,https://attack.mitre.org/techniques/T1552/008
+T1552.004,Unsecured Credentials: Private Keys,enterprise-attack,https://attack.mitre.org/techniques/T1552/004
+T1552.005,Unsecured Credentials: Cloud Instance Metadata API,enterprise-attack,https://attack.mitre.org/techniques/T1552/005
+T1552.006,Unsecured Credentials: Group Policy Preferences,enterprise-attack,https://attack.mitre.org/techniques/T1552/006
+T1552.007,Unsecured Credentials: Container API,enterprise-attack,https://attack.mitre.org/techniques/T1552/007
+T1080,Taint Shared Content,enterprise-attack,https://attack.mitre.org/techniques/T1080
+T1087,Account Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1087
+T1480.002,Execution Guardrails: Mutual Exclusion,enterprise-attack,https://attack.mitre.org/techniques/T1480/002
+T1090,Proxy,enterprise-attack,https://attack.mitre.org/techniques/T1090
+T1092,Communication Through Removable Media,enterprise-attack,https://attack.mitre.org/techniques/T1092
+T1095,Non-Application Layer Protocol,enterprise-attack,https://attack.mitre.org/techniques/T1095
+T1480.001,Execution Guardrails: Environmental Keying,enterprise-attack,https://attack.mitre.org/techniques/T1480/001
+T1568.003,Dynamic Resolution: DNS Calculation,enterprise-attack,https://attack.mitre.org/techniques/T1568/003
+T1568.001,Dynamic Resolution: Fast Flux DNS,enterprise-attack,https://attack.mitre.org/techniques/T1568/001
+T1568.002,Dynamic Resolution: Domain Generation Algorithms,enterprise-attack,https://attack.mitre.org/techniques/T1568/002
+T1626.001,Device Administrator Permissions,mobile-attack,https://attack.mitre.org/techniques/T1626/001
+T1496.003,Resource Hijacking: SMS Pumping,enterprise-attack,https://attack.mitre.org/techniques/T1496/003
+T1496.001,Resource Hijacking: Compute Hijacking,enterprise-attack,https://attack.mitre.org/techniques/T1496/001
+T1127.003,Trusted Developer Utilities Proxy Execution: JamPlus,enterprise-attack,https://attack.mitre.org/techniques/T1127/003
+T1127.002,Trusted Developer Utilities Proxy Execution: ClickOnce,enterprise-attack,https://attack.mitre.org/techniques/T1127/002
+T1127.001,Trusted Developer Utilities Proxy Execution: MSBuild,enterprise-attack,https://attack.mitre.org/techniques/T1127/001
+T1216.001,System Script Proxy Execution: PubPrn,enterprise-attack,https://attack.mitre.org/techniques/T1216/001
+T1216.002,System Script Proxy Execution: SyncAppvPublishingServer,enterprise-attack,https://attack.mitre.org/techniques/T1216/002
+T1546.010,Event Triggered Execution: AppInit DLLs,enterprise-attack,https://attack.mitre.org/techniques/T1546/010
+T1036,Masquerading,enterprise-attack,https://attack.mitre.org/techniques/T1036
+T1546.011,Event Triggered Execution: Application Shimming,enterprise-attack,https://attack.mitre.org/techniques/T1546/011
+T1546.012,Event Triggered Execution: Image File Execution Options Injection,enterprise-attack,https://attack.mitre.org/techniques/T1546/012
+T1546.013,Event Triggered Execution: PowerShell Profile,enterprise-attack,https://attack.mitre.org/techniques/T1546/013
+T1039,Data from Network Shared Drive,enterprise-attack,https://attack.mitre.org/techniques/T1039
+T1546.014,Event Triggered Execution: Emond,enterprise-attack,https://attack.mitre.org/techniques/T1546/014
+T1546.015,Event Triggered Execution: Component Object Model Hijacking,enterprise-attack,https://attack.mitre.org/techniques/T1546/015
+T1037,Boot or Logon Initialization Scripts,enterprise-attack,https://attack.mitre.org/techniques/T1037
+T1546.016,Event Triggered Execution: Installer Packages,enterprise-attack,https://attack.mitre.org/techniques/T1546/016
+T1070.004,Indicator Removal: File Deletion,enterprise-attack,https://attack.mitre.org/techniques/T1070/004
+T1481.003,One-Way Communication,mobile-attack,https://attack.mitre.org/techniques/T1481/003
+T1481.001,Dead Drop Resolver,mobile-attack,https://attack.mitre.org/techniques/T1481/001
+T1481.002,Bidirectional Communication,mobile-attack,https://attack.mitre.org/techniques/T1481/002
+T1052,Exfiltration Over Physical Medium,enterprise-attack,https://attack.mitre.org/techniques/T1052
+T1046,Network Service Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1046
+T1635.001,URI Hijacking,mobile-attack,https://attack.mitre.org/techniques/T1635/001
+T1047,Windows Management Instrumentation,enterprise-attack,https://attack.mitre.org/techniques/T1047
+T1049,System Network Connections Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1049
+T1627.001,Geofencing,mobile-attack,https://attack.mitre.org/techniques/T1627/001
+T1057,Process Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1057
+T1055,Process Injection,enterprise-attack,https://attack.mitre.org/techniques/T1055
+T1056,Input Capture,enterprise-attack,https://attack.mitre.org/techniques/T1056
+T1059,Command and Scripting Interpreter,enterprise-attack,https://attack.mitre.org/techniques/T1059
+T1055.015,Process Injection: ListPlanting,enterprise-attack,https://attack.mitre.org/techniques/T1055/015
+T1055.014,Process Injection: VDSO Hijacking,enterprise-attack,https://attack.mitre.org/techniques/T1055/014
+T1055.013,Process Injection: Process Doppelgänging,enterprise-attack,https://attack.mitre.org/techniques/T1055/013
+T1055.012,Process Injection: Process Hollowing,enterprise-attack,https://attack.mitre.org/techniques/T1055/012
+T1055.011,Process Injection: Extra Window Memory Injection,enterprise-attack,https://attack.mitre.org/techniques/T1055/011
+T1070.008,Indicator Removal: Clear Mailbox Data,enterprise-attack,https://attack.mitre.org/techniques/T1070/008
+T1070.007,Indicator Removal: Clear Network Connection History and Configurations,enterprise-attack,https://attack.mitre.org/techniques/T1070/007
+T1070.006,Indicator Removal: Timestomp,enterprise-attack,https://attack.mitre.org/techniques/T1070/006
+T1070.005,Indicator Removal: Network Share Connection Removal,enterprise-attack,https://attack.mitre.org/techniques/T1070/005
+T1070.009,Indicator Removal: Clear Persistence,enterprise-attack,https://attack.mitre.org/techniques/T1070/009
+T1072,Software Deployment Tools,enterprise-attack,https://attack.mitre.org/techniques/T1072
+T1070,Indicator Removal,enterprise-attack,https://attack.mitre.org/techniques/T1070
+T1074,Data Staged,enterprise-attack,https://attack.mitre.org/techniques/T1074
+T1068,Exploitation for Privilege Escalation,enterprise-attack,https://attack.mitre.org/techniques/T1068
+T1069,Permission Groups Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1069
+T1546.001,Event Triggered Execution: Change Default File Association,enterprise-attack,https://attack.mitre.org/techniques/T1546/001
+T1055.008,Process Injection: Ptrace System Calls,enterprise-attack,https://attack.mitre.org/techniques/T1055/008
+T1055.003,Process Injection: Thread Execution Hijacking,enterprise-attack,https://attack.mitre.org/techniques/T1055/003
+T1482,Domain Trust Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1482
+T1480,Execution Guardrails,enterprise-attack,https://attack.mitre.org/techniques/T1480
+T1474,Supply Chain Compromise,mobile-attack,https://attack.mitre.org/techniques/T1474
+T1561.001,Disk Wipe: Disk Content Wipe,enterprise-attack,https://attack.mitre.org/techniques/T1561/001
+T1490,Inhibit System Recovery,enterprise-attack,https://attack.mitre.org/techniques/T1490
+T1010,Application Window Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1010
+T1491,Defacement,enterprise-attack,https://attack.mitre.org/techniques/T1491
+T1486,Data Encrypted for Impact,enterprise-attack,https://attack.mitre.org/techniques/T1486
+T1003,OS Credential Dumping,enterprise-attack,https://attack.mitre.org/techniques/T1003
+T1555.005,Credentials from Password Stores: Password Managers,enterprise-attack,https://attack.mitre.org/techniques/T1555/005
+T1001,Data Obfuscation,enterprise-attack,https://attack.mitre.org/techniques/T1001
+T1485,Data Destruction,enterprise-attack,https://attack.mitre.org/techniques/T1485
+T1555.006,Credentials from Password Stores: Cloud Secrets Management Stores,enterprise-attack,https://attack.mitre.org/techniques/T1555/006
+T1555.003,Credentials from Password Stores: Credentials from Web Browsers,enterprise-attack,https://attack.mitre.org/techniques/T1555/003
+T1006,Direct Volume Access,enterprise-attack,https://attack.mitre.org/techniques/T1006
+T1007,System Service Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1007
+T1555.004,Credentials from Password Stores: Windows Credential Manager,enterprise-attack,https://attack.mitre.org/techniques/T1555/004
+T1555.001,Credentials from Password Stores: Keychain,enterprise-attack,https://attack.mitre.org/techniques/T1555/001
+T1489,Service Stop,enterprise-attack,https://attack.mitre.org/techniques/T1489
+T1555.002,Credentials from Password Stores: Securityd Memory,enterprise-attack,https://attack.mitre.org/techniques/T1555/002
+T1008,Fallback Channels,enterprise-attack,https://attack.mitre.org/techniques/T1008
+T1020,Automated Exfiltration,enterprise-attack,https://attack.mitre.org/techniques/T1020
+T1021,Remote Services,enterprise-attack,https://attack.mitre.org/techniques/T1021
+T1497,Virtualization/Sandbox Evasion,enterprise-attack,https://attack.mitre.org/techniques/T1497
+T1014,Rootkit,enterprise-attack,https://attack.mitre.org/techniques/T1014
+T1498,Network Denial of Service,enterprise-attack,https://attack.mitre.org/techniques/T1498
+T1495,Firmware Corruption,enterprise-attack,https://attack.mitre.org/techniques/T1495
+T1011,Exfiltration Over Other Network Medium,enterprise-attack,https://attack.mitre.org/techniques/T1011
+T1012,Query Registry,enterprise-attack,https://attack.mitre.org/techniques/T1012
+T1018,Remote System Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1018
+T1499,Endpoint Denial of Service,enterprise-attack,https://attack.mitre.org/techniques/T1499
+T1016,System Network Configuration Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1016
+T1030,Data Transfer Size Limits,enterprise-attack,https://attack.mitre.org/techniques/T1030
+T1029,Scheduled Transfer,enterprise-attack,https://attack.mitre.org/techniques/T1029
+T1027,Obfuscated Files or Information,enterprise-attack,https://attack.mitre.org/techniques/T1027
+T1037.004,Boot or Logon Initialization Scripts: RC Scripts,enterprise-attack,https://attack.mitre.org/techniques/T1037/004
+T1037.003,Boot or Logon Initialization Scripts: Network Logon Script,enterprise-attack,https://attack.mitre.org/techniques/T1037/003
+T1137.001,Office Application Startup: Office Template Macros,enterprise-attack,https://attack.mitre.org/techniques/T1137/001
+T1137.002,Office Application Startup: Office Test,enterprise-attack,https://attack.mitre.org/techniques/T1137/002
+T1048.001,Exfiltration Over Alternative Protocol: Exfiltration Over Symmetric Encrypted Non-C2 Protocol,enterprise-attack,https://attack.mitre.org/techniques/T1048/001
+T1137.003,Office Application Startup: Outlook Forms,enterprise-attack,https://attack.mitre.org/techniques/T1137/003
+T1430,Location Tracking,mobile-attack,https://attack.mitre.org/techniques/T1430
+T1137.004,Office Application Startup: Outlook Home Page,enterprise-attack,https://attack.mitre.org/techniques/T1137/004
+T1137.005,Office Application Startup: Outlook Rules,enterprise-attack,https://attack.mitre.org/techniques/T1137/005
+T1137.006,Office Application Startup: Add-ins,enterprise-attack,https://attack.mitre.org/techniques/T1137/006
+T1437,Application Layer Protocol,mobile-attack,https://attack.mitre.org/techniques/T1437
+T1222.002,File and Directory Permissions Modification: Linux and Mac Permissions,enterprise-attack,https://attack.mitre.org/techniques/T1222/002
+T1222.001,File and Directory Permissions Modification: Windows Permissions,enterprise-attack,https://attack.mitre.org/techniques/T1222/001
+T1491.002,Defacement: External Defacement,enterprise-attack,https://attack.mitre.org/techniques/T1491/002
+T1629.003,Disable or Modify Tools,mobile-attack,https://attack.mitre.org/techniques/T1629/003
+T1461,Lockscreen Bypass,mobile-attack,https://attack.mitre.org/techniques/T1461
+T1629.001,Prevent Application Removal,mobile-attack,https://attack.mitre.org/techniques/T1629/001
+T1629.002,Device Lockout,mobile-attack,https://attack.mitre.org/techniques/T1629/002
+T1453,Abuse Accessibility Features,mobile-attack,https://attack.mitre.org/techniques/T1453
+T1451,SIM Card Swap,mobile-attack,https://attack.mitre.org/techniques/T1451
+T1458,Replication Through Removable Media,mobile-attack,https://attack.mitre.org/techniques/T1458
+T1456,Drive-By Compromise,mobile-attack,https://attack.mitre.org/techniques/T1456
+T1471,Data Encrypted for Impact,mobile-attack,https://attack.mitre.org/techniques/T1471
+T1563.002,Remote Service Session Hijacking: RDP Hijacking,enterprise-attack,https://attack.mitre.org/techniques/T1563/002
+T1563.001,Remote Service Session Hijacking: SSH Hijacking,enterprise-attack,https://attack.mitre.org/techniques/T1563/001
+T1406,Obfuscated Files or Information,mobile-attack,https://attack.mitre.org/techniques/T1406
+T1407,Download New Code at Runtime,mobile-attack,https://attack.mitre.org/techniques/T1407
+T1404,Exploitation for Privilege Escalation,mobile-attack,https://attack.mitre.org/techniques/T1404
+T1409,Stored Application Data,mobile-attack,https://attack.mitre.org/techniques/T1409
+T1491.001,Defacement: Internal Defacement,enterprise-attack,https://attack.mitre.org/techniques/T1491/001
+T1414,Clipboard Data,mobile-attack,https://attack.mitre.org/techniques/T1414
+T1417,Input Capture,mobile-attack,https://attack.mitre.org/techniques/T1417
+T1418,Software Discovery,mobile-attack,https://attack.mitre.org/techniques/T1418
+T1637.001,Domain Generation Algorithms,mobile-attack,https://attack.mitre.org/techniques/T1637/001
+T1420,File and Directory Discovery,mobile-attack,https://attack.mitre.org/techniques/T1420
+T1421,System Network Connections Discovery,mobile-attack,https://attack.mitre.org/techniques/T1421
+T1424,Process Discovery,mobile-attack,https://attack.mitre.org/techniques/T1424
+T1422,System Network Configuration Discovery,mobile-attack,https://attack.mitre.org/techniques/T1422
+T1428,Exploitation of Remote Services,mobile-attack,https://attack.mitre.org/techniques/T1428
+T1429,Audio Capture,mobile-attack,https://attack.mitre.org/techniques/T1429
+T1426,System Information Discovery,mobile-attack,https://attack.mitre.org/techniques/T1426
+T1631.001,Ptrace System Calls,mobile-attack,https://attack.mitre.org/techniques/T1631/001
+T1518.002,Software Discovery: Backup Software Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1518/002
+T1518.001,Software Discovery: Security Software Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1518/001
+T1003.004,OS Credential Dumping: LSA Secrets,enterprise-attack,https://attack.mitre.org/techniques/T1003/004
+T1003.007,OS Credential Dumping: Proc Filesystem,enterprise-attack,https://attack.mitre.org/techniques/T1003/007
+T1003.001,OS Credential Dumping: LSASS Memory,enterprise-attack,https://attack.mitre.org/techniques/T1003/001
+T1574.007,Hijack Execution Flow: Path Interception by PATH Environment Variable,enterprise-attack,https://attack.mitre.org/techniques/T1574/007
+T1574.008,Hijack Execution Flow: Path Interception by Search Order Hijacking,enterprise-attack,https://attack.mitre.org/techniques/T1574/008
+T1574.009,Hijack Execution Flow: Path Interception by Unquoted Path,enterprise-attack,https://attack.mitre.org/techniques/T1574/009
+T1574.010,Hijack Execution Flow: Services File Permissions Weakness,enterprise-attack,https://attack.mitre.org/techniques/T1574/010
+T1589.001,Gather Victim Identity Information: Credentials,enterprise-attack,https://attack.mitre.org/techniques/T1589/001
+T1574.013,Hijack Execution Flow: KernelCallbackTable,enterprise-attack,https://attack.mitre.org/techniques/T1574/013
+T1574.014,Hijack Execution Flow: AppDomainManager,enterprise-attack,https://attack.mitre.org/techniques/T1574/014
+T1574.011,Hijack Execution Flow: Services Registry Permissions Weakness,enterprise-attack,https://attack.mitre.org/techniques/T1574/011
+T1589.003,Gather Victim Identity Information: Employee Names,enterprise-attack,https://attack.mitre.org/techniques/T1589/003
+T1589.002,Gather Victim Identity Information: Email Addresses,enterprise-attack,https://attack.mitre.org/techniques/T1589/002
+T1574.012,Hijack Execution Flow: COR_PROFILER,enterprise-attack,https://attack.mitre.org/techniques/T1574/012
+T1059.013,Command and Scripting Interpreter: Container CLI/API,enterprise-attack,https://attack.mitre.org/techniques/T1059/013
+T1059.010,Command and Scripting Interpreter: AutoHotKey & AutoIT,enterprise-attack,https://attack.mitre.org/techniques/T1059/010
+T1059.011,Command and Scripting Interpreter: Lua,enterprise-attack,https://attack.mitre.org/techniques/T1059/011
+T1205.001,Traffic Signaling: Port Knocking,enterprise-attack,https://attack.mitre.org/techniques/T1205/001
+T1205.002,Traffic Signaling: Socket Filters,enterprise-attack,https://attack.mitre.org/techniques/T1205/002
+T1059.002,Command and Scripting Interpreter: AppleScript,enterprise-attack,https://attack.mitre.org/techniques/T1059/002
+T1059.003,Command and Scripting Interpreter: Windows Command Shell,enterprise-attack,https://attack.mitre.org/techniques/T1059/003
+T1059.004,Command and Scripting Interpreter: Unix Shell,enterprise-attack,https://attack.mitre.org/techniques/T1059/004
+T1059.005,Command and Scripting Interpreter: Visual Basic,enterprise-attack,https://attack.mitre.org/techniques/T1059/005
+T1059.006,Command and Scripting Interpreter: Python,enterprise-attack,https://attack.mitre.org/techniques/T1059/006
+T1059.007,Command and Scripting Interpreter: JavaScript,enterprise-attack,https://attack.mitre.org/techniques/T1059/007
+T1059.008,Command and Scripting Interpreter: Network Device CLI,enterprise-attack,https://attack.mitre.org/techniques/T1059/008
+T1059.009,Command and Scripting Interpreter: Cloud API,enterprise-attack,https://attack.mitre.org/techniques/T1059/009
+T1059.001,Command and Scripting Interpreter: PowerShell,enterprise-attack,https://attack.mitre.org/techniques/T1059/001
+T1218.011,System Binary Proxy Execution: Rundll32,enterprise-attack,https://attack.mitre.org/techniques/T1218/011
+T1218.010,System Binary Proxy Execution: Regsvr32,enterprise-attack,https://attack.mitre.org/techniques/T1218/010
+T1218.015,System Binary Proxy Execution: Electron Applications,enterprise-attack,https://attack.mitre.org/techniques/T1218/015
+T1218.014,System Binary Proxy Execution: MMC,enterprise-attack,https://attack.mitre.org/techniques/T1218/014
+T1218.013,System Binary Proxy Execution: Mavinject,enterprise-attack,https://attack.mitre.org/techniques/T1218/013
+T1218.012,System Binary Proxy Execution: Verclsid,enterprise-attack,https://attack.mitre.org/techniques/T1218/012
+T1633.001,System Checks,mobile-attack,https://attack.mitre.org/techniques/T1633/001
+T1218.004,System Binary Proxy Execution: InstallUtil,enterprise-attack,https://attack.mitre.org/techniques/T1218/004
+T1218.003,System Binary Proxy Execution: CMSTP,enterprise-attack,https://attack.mitre.org/techniques/T1218/003
+T1218.002,System Binary Proxy Execution: Control Panel,enterprise-attack,https://attack.mitre.org/techniques/T1218/002
+T1218.001,System Binary Proxy Execution: Compiled HTML File,enterprise-attack,https://attack.mitre.org/techniques/T1218/001
+T1218.008,System Binary Proxy Execution: Odbcconf,enterprise-attack,https://attack.mitre.org/techniques/T1218/008
+T1218.007,System Binary Proxy Execution: Msiexec,enterprise-attack,https://attack.mitre.org/techniques/T1218/007
+T1218.005,System Binary Proxy Execution: Mshta,enterprise-attack,https://attack.mitre.org/techniques/T1218/005
+T1218.009,System Binary Proxy Execution: Regsvcs/Regasm,enterprise-attack,https://attack.mitre.org/techniques/T1218/009
+T1548.005,Abuse Elevation Control Mechanism: Temporary Elevated Cloud Access,enterprise-attack,https://attack.mitre.org/techniques/T1548/005
+T1505.006,Server Software Component: vSphere Installation Bundles,enterprise-attack,https://attack.mitre.org/techniques/T1505/006
+T1548.006,Abuse Elevation Control Mechanism: TCC Manipulation,enterprise-attack,https://attack.mitre.org/techniques/T1548/006
+T1505.004,Server Software Component: IIS Components,enterprise-attack,https://attack.mitre.org/techniques/T1505/004
+T1505.005,Server Software Component: Terminal Services DLL,enterprise-attack,https://attack.mitre.org/techniques/T1505/005
+T1548.001,Abuse Elevation Control Mechanism: Setuid and Setgid,enterprise-attack,https://attack.mitre.org/techniques/T1548/001
+T1001.003,Data Obfuscation: Protocol or Service Impersonation,enterprise-attack,https://attack.mitre.org/techniques/T1001/003
+T1001.002,Data Obfuscation: Steganography,enterprise-attack,https://attack.mitre.org/techniques/T1001/002
+T1548.003,Abuse Elevation Control Mechanism: Sudo and Sudo Caching,enterprise-attack,https://attack.mitre.org/techniques/T1548/003
+T1001.001,Data Obfuscation: Junk Data,enterprise-attack,https://attack.mitre.org/techniques/T1001/001
+T1548.004,Abuse Elevation Control Mechanism: Elevated Execution with Prompt,enterprise-attack,https://attack.mitre.org/techniques/T1548/004
+T1087.003,Account Discovery: Email Account,enterprise-attack,https://attack.mitre.org/techniques/T1087/003
+T1087.004,Account Discovery: Cloud Account,enterprise-attack,https://attack.mitre.org/techniques/T1087/004
+T1474.001,Compromise Software Dependencies and Development Tools,mobile-attack,https://attack.mitre.org/techniques/T1474/001
+T1474.002,Compromise Hardware Supply Chain,mobile-attack,https://attack.mitre.org/techniques/T1474/002
+T1474.003,Compromise Software Supply Chain,mobile-attack,https://attack.mitre.org/techniques/T1474/003
+T1578.004,Modify Cloud Compute Infrastructure: Revert Cloud Instance,enterprise-attack,https://attack.mitre.org/techniques/T1578/004
+T1673,Virtual Machine Discovery,enterprise-attack,https://attack.mitre.org/techniques/T1673
+T1679,Selective Exclusion,enterprise-attack,https://attack.mitre.org/techniques/T1679
+T1564.010,Hide Artifacts: Process Argument Spoofing,enterprise-attack,https://attack.mitre.org/techniques/T1564/010
+T1687,Exploitation for Defense Impairment,enterprise-attack,https://attack.mitre.org/techniques/T1687
+T1036.011,Masquerading: Overwrite Process Arguments,enterprise-attack,https://attack.mitre.org/techniques/T1036/011
+T1036.009,Masquerading: Break Process Trees,enterprise-attack,https://attack.mitre.org/techniques/T1036/009
+T1633,Virtualization/Sandbox Evasion,mobile-attack,https://attack.mitre.org/techniques/T1633
+T1631,Process Injection,mobile-attack,https://attack.mitre.org/techniques/T1631
+T1637,Dynamic Resolution,mobile-attack,https://attack.mitre.org/techniques/T1637
+T1639,Exfiltration Over Alternative Protocol,mobile-attack,https://attack.mitre.org/techniques/T1639
+T1668,Exclusive Control,enterprise-attack,https://attack.mitre.org/techniques/T1668
+T1600,Weaken Encryption,enterprise-attack,https://attack.mitre.org/techniques/T1600
+T1628,Hide Artifacts,mobile-attack,https://attack.mitre.org/techniques/T1628
+T1630.003,Disguise Root/Jailbreak Indicators,mobile-attack,https://attack.mitre.org/techniques/T1630/003
+T1547.010,Boot or Logon Autostart Execution: Port Monitors,enterprise-attack,https://attack.mitre.org/techniques/T1547/010
+T1600.002,Weaken Encryption: Disable Crypto Hardware,enterprise-attack,https://attack.mitre.org/techniques/T1600/002
+T1600.001,Weaken Encryption: Reduce Key Space,enterprise-attack,https://attack.mitre.org/techniques/T1600/001
+T1027.018,Obfuscated Files or Information: Invisible Unicode,enterprise-attack,https://attack.mitre.org/techniques/T1027/018
+T1027.008,Obfuscated Files or Information: Stripped Payloads,enterprise-attack,https://attack.mitre.org/techniques/T1027/008
+T1496.004,Resource Hijacking: Cloud Service Hijacking,enterprise-attack,https://attack.mitre.org/techniques/T1496/004
+T1496.002,Resource Hijacking: Bandwidth Hijacking,enterprise-attack,https://attack.mitre.org/techniques/T1496/002
+T1546.005,Event Triggered Execution: Trap,enterprise-attack,https://attack.mitre.org/techniques/T1546/005
+T1070.010,Indicator Removal: Relocate Malware,enterprise-attack,https://attack.mitre.org/techniques/T1070/010
+T1481,Web Service,mobile-attack,https://attack.mitre.org/techniques/T1481
+T1496,Resource Hijacking,enterprise-attack,https://attack.mitre.org/techniques/T1496
+T1464,Network Denial of Service,mobile-attack,https://attack.mitre.org/techniques/T1464
+T1423,Network Service Scanning,mobile-attack,https://attack.mitre.org/techniques/T1423
+T1059.012,Command and Scripting Interpreter: Hypervisor CLI,enterprise-attack,https://attack.mitre.org/techniques/T1059/012
+T0837,Loss of Protection,ics-attack,https://attack.mitre.org/techniques/T0837
+T1547.014,Boot or Logon Autostart Execution: Active Setup,enterprise-attack,https://attack.mitre.org/techniques/T1547/014
+T1546.018,Event Triggered Execution: Python Startup Hooks,enterprise-attack,https://attack.mitre.org/techniques/T1546/018
+T1546.017,Event Triggered Execution: Udev Rules,enterprise-attack,https://attack.mitre.org/techniques/T1546/017
+T1546.007,Event Triggered Execution: Netsh Helper DLL,enterprise-attack,https://attack.mitre.org/techniques/T1546/007

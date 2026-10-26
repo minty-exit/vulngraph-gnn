@@ -1,2 +1,4 @@
 # vulngraph-gnn
-Predicts the severity of newly published CVEs before NVD scores them, using machine learning on a cybersecurity knowledge graph, with calibrated confidence for every prediction.
+**CVE Severity Analysis and Prediction on the Unified Cybersecurity Knowledge Graph**
+
+New vulnerabilities (CVEs) are published every day, but the National Vulnerability Database (NVD) can take weeks or months to give them a severity score, leaving security teams guessing which ones matter most. This project combines about 300,000 NVD CVE records with the Unified Cybersecurity Knowledge Graph (UCKG), which links each CVE to its weaknesses (CWE), affected products (CPE), and attack patterns (CAPEC and ATT&CK). We explore what drives severity, predict CVSS base scores and severity levels with models from Random Forest and XGBoost to a graph convolutional network (GCN), and test whether the graph's links improve those predictions, so analysts can prioritize new vulnerabilities before an official score exists.

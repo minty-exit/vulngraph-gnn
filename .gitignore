@@ -1,0 +1,12 @@
+# Python and Jupyter files
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Raw NVD downloads (nvd_cves.csv is built from these)
+dataset/nvd_feeds/
+
+# Uncompressed copies of the three big files (over GitHub's size limit; the .gz versions are committed)
+dataset/nvd_cves.csv
+dataset/uckg/cves.csv
+dataset/uckg/edges_cve_cpe.csv
